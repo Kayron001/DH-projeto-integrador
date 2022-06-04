@@ -1,13 +1,14 @@
-body{
+body {
     margin: 0px;
     background-color: whitesmoke;
 }
-.logo{
+
+.logo {
     height: 50px;
     width: 100px;
 }
 
-.barra-logo-menu{
+.barra-logo-menu {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -15,67 +16,78 @@ body{
     height: 50px;
     align-items: center;
 }
-.menu-navegacao{
-    margin-right: 39%;
+
+.menu-navegacao {
+    margin-right: 35%;
 }
 
-.carrinho-icon{
+.carrinho-icon {
+    margin-right: 10px;
     height: 40px;
     width: 60px;
 }
-.usuario-icon{
+
+.usuario-icon {
+    margin-right: 15px;
     height: 40px;
     width: 40px;
 }
-.lupa-icon{
+
+.lupa-icon {
     height: 10px;
     width: 20px;
 }
-select.categoria>option{
+
+select.categoria>option {
     font-size: 1.2em;
 }
-.barra-pesquisa{
+
+.barra-pesquisa {
     margin: 0 10px;
     font-size: 1.2em;
 }
 
-.div-barra-pesquisa{
+.div-barra-pesquisa {
     margin: 2% 0px 0px 0%;
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.sugestoes-pesquisa{
+
+.sugestoes-pesquisa {
     display: flex;
     justify-content: space-around;
     margin: 0px 35% 0px 37%;
 }
 
-.banner-promocao{
+.banner-promocao {
     display: flex;
     justify-content: center;
     margin: 1%;
 }
-.banner{
+
+.banner {
     width: 90%;
     height: 215px;
     border: solid 1px black;
     position: relative;
 }
 
-.arrow-left{
+.arrow-left {
     width: 3%;
     height: 40px;
     opacity: 50%;
 }
-.arrow-right{
+
+.arrow-right {
     opacity: 50%;
     transform: rotate(180deg);
     width: 3%;
     height: 40px;
 
 }
-.banner-promocao{
+
+.banner-promocao {
     margin: 2% 0 -2% 0;
     padding: 2%;
     /* background-color: rgb(199, 196, 196); */
@@ -84,7 +96,7 @@ select.categoria>option{
     align-items: center;
 }
 
-.botoes-banner{
+.botoes-banner {
     display: flex;
     justify-content: right;
     padding-right: 7%;
@@ -92,24 +104,100 @@ select.categoria>option{
     /* background-color: rgb(199, 196, 196); */
 }
 
-.titulo-primeiro-bloco-prdutos{
+.titulo-primeiro-bloco-prdutos {
+    letter-spacing: 1px;
     text-align: center;
     font-size: 1.2em;
     text-decoration: underline;
     font-weight: bold;
     background-color: rgb(35, 149, 255);
     padding: 0.5% 0%;
-    margin: 0% 25%;
+    margin: 0% 25% 2% 25%;
 }
 
-.produto-lista-1{
+.primeiro-bloco-opcoes-produtos {
+    margin: 1% 2%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-around;
+}
+
+.produto-lista-1 {
+    cursor: pointer;
+    padding: 4px;
+    max-width: 200px;
+    height: 300px;
+    box-sizing: content-box;
+    box-shadow: 0px 4px 10px 0 black;
+    display: inline-block;
     border: solid 1px black;
 }
 
-.imagem-produto-1{
-    width: 200px;
-    height: 20%;
+.imagem-produto-1 {
+    padding: 2px 2px;
+    width: 190px;
+}
+
+.preco-produto-antes {
+    font-style: oblique;
+    color: red;
+    text-decoration: line-through;
+}
+
+.preco-produto-depois {
+    color: green;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.caixa-descricao-produto {
+    box-sizing: content-box;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.segundo-bloco-opcoes-categoria {
+    background-color: rgb(35, 149, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.caixa-categoria {
+    margin: -4%;
+    text-align: center;
+}
+
+.icone-categoria {
+    width: 100px;
+    height: 100px;
+}
+
+.titulo-segundo-bloco-prdutos {
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: rgb(35, 149, 255);
+    padding: 1.5% 0%;
+    margin: 3% 0% 0% 0%;
+}
+
+.nome-categoria {
+    letter-spacing: 2px;
+    background-color: rgb(35, 149, 255);
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.ver-mais {
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: -3px;
+    padding: 2px;
 }
