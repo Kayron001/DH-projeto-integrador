@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+
+.form{width: 400px;
+    margin:auto;
+    padding-top: 40px;
+}
+
+.card{
+    cursor: pointer;
+    box-shadow:10px 10px  15px rgb(70, 43, 43);
+    background-color: aquamarine;
+    padding: 30px; 
+    border-radius: 5px;
+    text-align: center;
+
+}
+.card-group{
+    margin-bottom: 12px;
+
+}
+
+
+.card-group > label{
+    width: 100%;
+    color: brown;
+    display: block;
+}
+.card-group > input{
+    border-radius: 10px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+.card-group > button{
+    background-color: blue;
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+}
