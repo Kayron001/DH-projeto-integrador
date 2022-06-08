@@ -11,8 +11,9 @@
 
 <body>
     <header>
+        <!-- Barra de logo com menu -->
         <div class="barra-logo-menu">
-            <img src="./img/home/logo.jpg" alt="" class="logo">
+            <img src="./img/home/logo.png" alt="" class="logo">
             <nav class="menu-navegacao">
                 <a href="">Central do Vendedor</a>
                 <a href="">Cadastre um produto</a>
@@ -26,6 +27,7 @@
                 <a href=""><img class="usuario-icon" src="./img/home/usuario-icon.png" alt=""></a>
             </span>
         </div>
+        <!-- Seletor de catagoria -->
         <div class="div-barra-pesquisa">
             <select name="categoria" class="categoria-opcao">
                 <option value="teste1"></option>
@@ -42,6 +44,7 @@
                 <img class="lupa-icon" src="./img/home/lupa-icon.png" alt="">
             </span>
         </div>
+        <!-- Segestoes de pesquisa rápida -->
         <div class="sugestoes-pesquisa">
             <a href="">Cama</a>
             <a href="">Sofá</a>
@@ -49,105 +52,259 @@
             <a href="">Smartphone</a>
             <a href="">Ventilador</a>
         </div>
-        <div class="banner-promocao">
-            <img src="./img/home/arrow-icon.png" alt="" class="arrow-right">
-            <img src="./img/home/banner-promocao.jpg" alt="" class="banner">
-            <img src="./img/home/arrow-icon.png" alt="" class="arrow-left">
-        </div>
-        <div class="botoes-banner">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-        </div>
-        <p class="titulo-primeiro-bloco-prdutos">Conheça mais do nossos produtos</p>
-        <div class="primeiro-bloco-opcoes-produtos">
-            <div class="produto-lista-1">
-                <div class="teste">
-                    <img class="imagem-produto-1" src="./img/home/produto1.jpg" alt="">
-                    <div class="caixa-descricao-produto">
-                        <p>Sofá retratil de dois lugares</p>
-                        <span class="preco-produto-antes">de R$ 1.499,99</span>
-                        <span class="preco-produto-depois">por R$ 799,99</span>
-                    </div>
-                </div>
-            </div>
-            <div class="produto-lista-1">
-                <div class="">
-                    <img class="imagem-produto-1" src="./img/home/produto2.jpg" alt="">
-                    <div class="caixa-descricao-produto">
-                        <p>Cama de casal</p>
-                        <span class="preco-produto-antes">de R$ 1.299,89</span>
-                        <span class="preco-produto-depois">por R$ 899,49</span>
-                    </div>
-                </div>
-            </div>
-            <div class="produto-lista-1">
-                <div class="">
-                    <img class="imagem-produto-1" src="./img/home/produto3.jpg" alt="">
-                    <div class="caixa-descricao-produto">
-                        <p>Mesa para área externa</p>
-                        <span class="preco-produto-antes">de R$ 997,00</span>
-                        <span class="preco-produto-depois">por R$ 489,90</span>
-                    </div>
-                </div>
-            </div>
-            <div class="produto-lista-1">
-                <div class="">
-                    <img class="imagem-produto-1" src="./img/home/produto4.jpg" alt="">
-                    <div class="caixa-descricao-produto">
-                        <p>Smartphoe Motorola G27 Plus</p>
-                        <span class="preco-produto-antes">de R$ 3.499,99</span>
-                        <span class="preco-produto-depois">por R$ 1.809,89</span>
-                    </div>
-                </div>
-            </div>
-            <div class="produto-lista-1">
-                <div class="">
-                    <img class="imagem-produto-1" src="./img/home/produto5.jpg" alt="">
-                    <div class="caixa-descricao-produto">
-                        <p>Armário duas portas em MDF</p>
-                        <span class="preco-produto-antes">de R$ 1.299,99</span>
-                        <span class="preco-produto-depois">por R$ 849,49</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <p class="titulo-segundo-bloco-prdutos">Outros tipos de produtos que você encontra aqui!</p>
-        <div class="segundo-bloco-opcoes-categoria">
-            <div class="caixa-categoria">
-                <p class="nome-categoria">Sofá</p>
-                <img src="./img/home/sofa-icon.png" alt="" class="icone-categoria">
-                <p class="ver-mais">Ver Mais</p>
-            </div>
-            <div class="caixa-categoria">
-                <p class="nome-categoria">Cama</p>
-                <img src="./img/home/cama-icon.png" alt="" class="icone-categoria">
-                <p class="ver-mais">Ver Mais</p>
-            </div>
-            <div class="caixa-categoria">
-                <p class="nome-categoria">Celular</p>
-                <img src="./img/home/celular-icon.png" alt="" class="icone-categoria">
-                <p class="ver-mais">Ver Mais</p>
-            </div>
-            <div class="caixa-categoria">
-                <p class="nome-categoria">Guarda-roupa</p>
-                <img src="./img/home/guardaroupa-icon.png" alt="" class="icone-categoria">
-                <p class="ver-mais">Ver Mais</p>
-            </div>
-            <div class="caixa-categoria">
-                <p class="nome-categoria">Sofá</p>
-                <img src="./img/home/fogao-icon.png" alt="" class="icone-categoria">
-                <p class="ver-mais">Ver Mais</p>
-            </div>
-            <div class="caixa-categoria">
-                <p class="nome-categoria">Vestuario</p>
-                <img src="./img/home/vestuario-icon.png" alt="" class="icone-categoria">
-                <p class="ver-mais">Ver Mais</p>
-            </div>
-        </div>
     </header>
+    <!-- Banner promocional -->
+    <div class="banner-promocao">
+        <img src="./img/home/arrow-icon.png" alt="" class="arrow-left">
+        <img src="./img/home/banner-promocao.jpg" alt="" class="banner">
+        <img src="./img/home/arrow-icon.png" alt="" class="arrow-right">
+    </div>
+    <div class="botoes-banner">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+    </div>
+    <!-- Titulo primeiro bloco de produtos -->
+    <p class="titulo-primeiro-bloco-produtos">Conheça mais do nossos produtos em promoção</p>
+    <!-- Primeiro bloco de produtos -->
+    <div class="primeiro-bloco-opcoes-produtos">
+        <!-- Caixa de produto primeiro bloco -->
+        <div class="caixa-produto-promocao">
+            <img class="imagem-produto-bloco1" src="./img/home/produto1.jpg" alt="">
+            <div class="descricao-produto-primeiro-bloco">
+                <p>Sofá retratil de dois lugares</p>
+                <span class="preco-produto-antes">de R$ 1.499,99</span>
+                <span class="preco-produto-depois">por R$ 799,99</span>
+                <img class="carrinho-icon-add" src="./img/home/carrinho-icon-add.png" alt="">
+            </div>
+        </div>
+        <!-- Caixa de produto primeiro bloco -->
+        <div class="caixa-produto-promocao">
+            <img class="imagem-produto-bloco1" src="./img/home/produto2.jpg" alt="">
+            <div class="descricao-produto-primeiro-bloco">
+                <p>Cama de casal</p>
+                <span class="preco-produto-antes">de R$ 1.299,89</span>
+                <span class="preco-produto-depois">por R$ 899,49</span>
+                <img class="carrinho-icon-add" src="./img/home/carrinho-icon-add.png" alt="">
+            </div>
+        </div>
+        <!-- Caixa de produto primeiro bloco -->
+        <div class="caixa-produto-promocao">
+            <img class="imagem-produto-bloco1" src="./img/home/produto3.jpg" alt="">
+            <div class="descricao-produto-primeiro-bloco">
+                <p>Mesa para área externa</p>
+                <span class="preco-produto-antes">de R$ 997,00</span>
+                <span class="preco-produto-depois">por R$ 489,90</span>
+                <img class="carrinho-icon-add" src="./img/home/carrinho-icon-add.png" alt="">
+            </div>
+        </div>
+        <!-- Caixa de produto primeiro bloco -->
+        <div class="caixa-produto-promocao">
+            <img class="imagem-produto-bloco1" src="./img/home/produto4.jpg" alt="">
+            <div class="descricao-produto-primeiro-bloco">
+                <p>Smartphoe Motorola G27 Plus</p>
+                <span class="preco-produto-antes">de R$ 3.499,99</span>
+                <span class="preco-produto-depois">por R$ 1.809,89</span>
+                <img class="carrinho-icon-add" src="./img/home/carrinho-icon-add.png" alt="">
+            </div>
+        </div>
+        <!-- Caixa de produto primeiro bloco -->
+        <div class="caixa-produto-promocao">
+            <img class="imagem-produto-bloco1" src="./img/home/produto5.jpg" alt="">
+            <div class="descricao-produto-primeiro-bloco">
+                <p>Armário duas portas em MDF</p>
+                <span class="preco-produto-antes">de R$ 1.299,99</span>
+                <span class="preco-produto-depois">por R$ 849,49</span>
+                <img class="carrinho-icon-add" src="./img/home/carrinho-icon-add.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Titulo bloco de categorias -->
+    <p class="titulo-bloco-categorias">Encontre o produto que deseja por categoria!</p>
+    <div class="segundo-bloco-opcoes-categoria">
+        <!-- Caixa de categoria -->
+        <div class="caixa-categoria">
+            <p class="nome-categoria">Sofá</p>
+            <img src="./img/home/sofa-icon.png" alt="" class="icone-categoria">
+            <p class="ver-mais">Ver Mais</p>
+        </div>
+        <!-- Caixa de categoria -->
+        <div class="caixa-categoria">
+            <p class="nome-categoria">Cama</p>
+            <img src="./img/home/cama-icon.png" alt="" class="icone-categoria">
+            <p class="ver-mais">Ver Mais</p>
+        </div>
+        <!-- Caixa de categoria -->
+        <div class="caixa-categoria">
+            <p class="nome-categoria">Celular</p>
+            <img src="./img/home/celular-icon.png" alt="" class="icone-categoria">
+            <p class="ver-mais">Ver Mais</p>
+        </div>
+        <!-- Caixa de categoria -->
+        <div class="caixa-categoria">
+            <p class="nome-categoria">Guarda-roupa</p>
+            <img src="./img/home/guardaroupa-icon.png" alt="" class="icone-categoria">
+            <p class="ver-mais">Ver Mais</p>
+        </div>
+        <!-- Caixa de categoria -->
+        <div class="caixa-categoria">
+            <p class="nome-categoria">Sofá</p>
+            <img src="./img/home/fogao-icon.png" alt="" class="icone-categoria">
+            <p class="ver-mais">Ver Mais</p>
+        </div>
+        <!-- Caixa de categoria -->
+        <div class="caixa-categoria">
+            <p class="nome-categoria">Vestuario</p>
+            <img src="./img/home/vestuario-icon.png" alt="" class="icone-categoria">
+            <p class="ver-mais">Ver Mais</p>
+        </div>
+    </div>
+    <!-- Titulo segundo bloco de produtos -->
+    <div class="titulo-segundo-bloco-produtos">Produtos mais vendidos</div>
+    <!-- Segundo bloco de produtos -->
+    <div class="segundo-bloco-opcao-descricao">
+        <img src="./img/home/arrow-icon.png" alt="" class="arrow-left">
+        <!-- Caixa de produto segundo bloco -->
+        <div class="caixa-produto-descricao">
+            <img class="imagem-produto-bloco2" src="./img/home/produto6.png" alt="">
+            <span class="descricao-produto-segundo-bloco">
+                Conjuro de cadeiras acolchoados, ótimo para mesa de jantar, escolha o que é melhor para você, duas,
+                quatro ou seis cadeiras.
+                <p class="preco-produto-depois">Por R$ 399,49</p>
+            </span>
+        </div>
+        <!-- Caixa de produto segundo bloco -->
+        <div class="caixa-produto-descricao">
+            <img class="imagem-produto-bloco2" src="./img/home/produto7.png" alt="">
+            <span class="descricao-produto-segundo-bloco">
+                Monitor Gamer, ótimo balanceamento de cores e alta taxa de resposta, perfeito para jogar jogos em
+                60fp/s.
+                <p class="preco-produto-depois">Por R$ 789,89</p>
+            </span>
+        </div>
+        <!-- Caixa de produto segundo bloco -->
+        <div class="caixa-produto-descricao">
+            <img class="imagem-produto-bloco2" src="./img/home/produto8.png" alt="">
+            <span class="descricao-produto-segundo-bloco">
+                Mochila antifurto, com usb interno para fácil carregamento atráves de powerbank, ideial para levar
+                notebook, produto acompanha cadeado.
+                <p class="preco-produto-depois">Por R$ 229,09</p>
+            </span>
+        </div>
+        <img src="./img/home/arrow-icon.png" alt="" class="arrow-right">
+    </div>
+    <!-- Titulo terceiro bloco de produtos -->
+    <div class="titulo-terceiro-bloco-produtos">Ultimas unidades em estoque!</div>
+    <!-- Terceiro bloco de produtos -->
+    <div class="terceiro-bloco-opcao-variedades">
+        <!-- Caixa de produto terceiro bloco -->
+        <div class="caixa-produto-variedade">
+            <img src="./img/home/produto9.png" alt="" class="imagem-produto-bloco3">
+            <div class="descricao-produto-terceiro-bloco">
+                <span>A Cozinha valência deixa o ambiente ainda mais convidativo e sempre pronto para te ajudar.
+                    Produzido com materiais de resistência e qualidade, é a melhor opção para sua cozinha.</span>
+            </div>
+            <div class="preco-carrinho">
+                <p class="preco-produto-antes">de R$ 1.290,99</p>
+                <p class="preco-produto-depois">por R$ 890,99</p>
+            </div>
+        </div>
+        <!-- Caixa de produto terceiro bloco -->
+        <div class="caixa-produto-variedade">
+            <img src="./img/home/produto10.png" alt="" class="imagem-produto-bloco3">
+            <div class="descricao-produto-terceiro-bloco">
+                <span>O Fogão 4 queimadores da Fischer possui mesa em vidro temperado, 1 queimador rápido de 3000W e
+                    três queimadores semirrápidos de 1750W. Nas cor Preto Ébano </span>
+            </div>
+            <div class="preco-carrinho">
+                <p class="preco-produto-antes">de R$ 2.499,99</p>
+                <p class="preco-produto-depois">por R$ 1.790,49</p>
+            </div>
+        </div>
+        <!-- Caixa de produto terceiro bloco -->
+        <div class="caixa-produto-variedade">
+            <img src="./img/home/produto11.png" alt="" class="imagem-produto-bloco3">
+            <div class="descricao-produto-terceiro-bloco">
+                <span>O ambiente de trabalho ou estudos precisa estar sempre organizado, pois ele contribui diretamente
+                    no nosso foco. E para isso, a Mesa Office da Notável Móveis é o item certo.</span>
+            </div>
+            <div class="preco-carrinho">
+                <p class="preco-produto-depois">por R$ 549,09</p>
+            </div>
+        </div>
+        <!-- Caixa de produto terceiro bloco -->
+        <div class="caixa-produto-variedade">
+            <img src="./img/home/produto12.png" alt="" class="imagem-produto-bloco3">
+            <div class="descricao-produto-terceiro-bloco">
+                <span>O Guarda-Roupa Casal Reno da Madesa traz uma combinação perfeita entre design moderno, ótima
+                    disposição interna e materiais de qualidade. São três portas de correr.</span>
+            </div>
+            <div class="preco-carrinho">
+                <p class="preco-produto-depois">por R$ 1.879,97</p>
+            </div>
+        </div>
+        <!-- Caixa de produto terceiro bloco -->
+        <div class="caixa-produto-variedade">
+            <img src="./img/home/produto13.png" alt="" class="imagem-produto-bloco3">
+            <div class="descricao-produto-terceiro-bloco">
+                <span>Cozinhar com praticidade, rapidez e segurança é tudo o que desejamos, com 3 litros de capacidade,
+                    ela possui o tamanho perfeito para o preparo de receitas do dia a dia.</span>
+            </div>
+            <div class="preco-carrinho">
+                <p class="preco-produto-antes">de R$ 997,00</p>
+                <p class="preco-produto-depois">por R$ 697,49</p>
+            </div>
+        </div>
+        <!-- Caixa de produto terceiro bloco -->
+        <div class="caixa-produto-variedade">
+            <img src="./img/home/produto14.png" alt="" class="imagem-produto-bloco3">
+            <div class="descricao-produto-terceiro-bloco">
+                <span>Bicicleta Elleven aro 29", com suspensão com trava hidráulica remota e componentes Shimano Altus
+                    de 18 velocidades (2x9). Freios a disco hidráulicos.</span>
+            </div>
+            <div class="preco-carrinho">
+                <p class="preco-produto-depois">por R$ 1.649,09</p>
+            </div>
+        </div>
+    </div>
 </body>
+<footer class="footer">
+    <div>
+        <img class="logo-footer" src="./img/home/logo.png" alt="">
+    </div>
+    <div class="opcoes-footer">
+        <p class="opcao-titulo"><strong>Início</strong></p>
+        <p class="opcao-footer">Home</p>
+        <p class="opcao-footer">Categorias</p>
+        <p class="opcao-footer">Cadastro de usuário</p>
+    </div>
+    <div class="opcoes-footer">
+        <p class="opcao-titulo"><strong>Sobre-nós</strong></p>
+        <p class="opcao-footer">Missão</p>
+        <p class="opcao-footer">Quem somos</p>
+        <p class="opcao-footer">Blog</p>
+        <p class="opcao-footer">Contato</p>
+    </div>
+    <div class="opcoes-footer">
+        <p class="opcao-titulo"><strong>Suporte</strong></p>
+        <p class="opcao-footer">FAQ</p>
+        <p class="opcao-footer">Telefones</p>
+        <p class="opcao-footer">Chat online</p>
+        <p class="opcao-footer">Reclame Aqui</p>
+    </div>
+    <div class="rede-sociais-footer">
+        <span>
+            <img src="./img/home/facebook-icon.png" alt="" class="redesocial-icon">
+            <img src="./img/home/wpp-icon.png" alt="" class="redesocial-icon">
+            <img src="./img/home/insta-icon.png" alt="" class="redesocial-icon">
+            <img src="./img/home/twitter-icon.png" alt="" class="redesocial-icon">
+        </span>
+        <p>
+            <button class="butao-contato-footer">Contato</button>
+        </p>
+    </div>
+</footer>
 
 </html>
