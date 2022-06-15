@@ -248,6 +248,11 @@ select.categoria>option {
     align-items: center;
 }
 
+.imagem-produto-bloco2 {
+    margin: 15px 5px 5px 10px;
+    width: 200px;
+    height: 200px;
+}
 .descricao-produto-segundo-bloco {
     font-size: 1.1em;
     margin: 15px 1.5% 5px 0px;
