@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "nome": "Sofá retratil Living de dois lugares",
+        "preco": "1.499,99",
+        "desconto": 0.46,
+        "descricao": "Se quer receber os amigos e familiares com muita elegância, o Sofá Living é a opção ideal. O design aposta na simplicidade das linhas e das formas, perfeito para um ambiente contemporâneo. A base e pés  em madeira, espumas D28 e revestimento em Linho garantem resistência e durabilidade ao produto. Você acaba de encontrar o item que faltava para sua sala! Não Perca."
+    },
+    {
+        "id": 2,
+        "nome": "Cama de casal",
+        "preco": "1.299,89",
+        "desconto": 0.3,
+        "descricao": "Produto desenvolvido com madeira de Pinus de reflorestamento 100% maciça, ecologicamente correta. Esse produto de alta resistência e grande performance foi desenvolvido para o cliente que procura uma cama que suporte 200kg"
+    },
+    {
+        "id": 3,
+        "nome": "Mesa para área externa",
+        "preco": "997,00",
+        "desconto": 0.5,
+        "descricao": "Mesa redonda industrial para area externa 90x90 estilosa e com um desing versátil, é capaz de combinar tanto com a decoração interna, quanto com a externa. Tenha mais sofisticação na sua casa! A mesa possui tampo em madeira maciça, e sua base é feita de tubos metálicos."
+    },
+    {
+        "id": 4,
+        "nome": "Smartphone Motorola G270 Mega Plus",
+        "preco": "3.499,99",
+        "desconto": 0.48,
+        "descricao": "O Smartphoe Motorola G270 Mega Plus é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 6.6 polegadas, que coloca esse Poco no topo de sua categoria. A resolução também é alta: 2400x1080 pixel. Quanto às funções, no Motorola G270 Mega Plus realmente não falta nada."
+    },
+    {
+        "id": 5,
+        "nome": "Smartphone Motorola G270 Mega Plus",
+        "preco": "3.499,99",
+        "desconto": 0.48,
+        "descricao": "O Smartphoe Motorola G270 Mega Plus é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 6.6 polegadas, que coloca esse Poco no topo de sua categoria. A resolução também é alta: 2400x1080 pixel. Quanto às funções, no Motorola G270 Mega Plus realmente não falta nada."
+    },
+    {
+        "id": 6,
+        "nome": "Armário Aurora - Wood e Preto",
+        "preco": "1.299,99",
+        "desconto": 0.34,
+        "descricao": "O armário Aurora foi desenvolvido para oferecer praticidade no seu dia a dia, proporcionando muito mais comodidade na hora de organizar suas roupas, com duas gavetas na parte externa para organização de peças menores, com corrediças metálicas que permite um deslize mais seguro e suave. Ideal para ambientes com pouco espaço."
+    },
+    {
+        "id": 7,
+        "nome": "Cadeira acolchoada extra confort",
+        "preco": "399,49",
+        "desconto": 0,
+        "descricao": "Conjuro de cadeiras acolchoados, ótimo para mesa de jantar, escolha o que é melhor para você, duas, quatro ou seis cadeiras."
+    },
+    {
+        "id": 8,
+        "nome": "Monitor gamer 27 polegadas",
+        "preco": "789,89",
+        "desconto": 0,
+        "descricao": "Monitor Gamer, ótimo balanceamento de cores e alta taxa de resposta, perfeito para jogar jogos em 60fp/s."
+    },
+    {
+        "id": 9,
+        "nome": "Mochila antifurto super segura",
+        "preco": "229,09",
+        "desconto": 0,
+        "descricao": "Mochila antifurto, com usb interno para fácil carregamento atráves de powerbank, ideial para levar notebook, produto acompanha cadeado."
+    },
+    {
+        "id": 10,
+        "nome": "Armário de cozinha valência em MDF",
+        "preco": "1.290,99",
+        "desconto": 0.3,
+        "descricao": "A Cozinha valência deixa o ambiente ainda mais convidativo e sempre pronto para te ajudar. Produzido com materiais de resistência e qualidade, é a melhor opção para sua cozinha."
+    },
+    {
+        "id": 11,
+        "nome": "Fogão cooktop de 4 queimadores",
+        "preco": "2.499,99",
+        "desconto": 0.28,
+        "descricao": "O Fogão 4 queimadores da Fischer possui mesa em vidro temperado, 1 queimador rápido de 3000W e três queimadores semirrápidos de 1750W. Nas cor Preto Ébano"
+    },
+    {
+        "id": 12,
+        "nome": "Mesa de computador back in black",
+        "preco": "549,09",
+        "desconto": 0,
+        "descricao": "O ambiente de trabalho ou estudos precisa estar sempre organizado, pois ele contribui diretamente no nosso foco. E para isso, a Mesa Office da Notável Móveis é o item certo."
+    },
+    {
+        "id": 13,
+        "nome": "Guarda-Roupa de casal Reno em MDF",
+        "preco": "1.879,97",
+        "desconto": 0,
+        "descricao": "O Guarda-Roupa Casal Reno da Madesa traz uma combinação perfeita entre design moderno, ótima disposição interna e materiais de qualidade. São três portas de correr."
+    },
+    {
+        "id": 14,
+        "nome": "Panela de pressão eletrica Philco",
+        "preco": "997,00",
+        "desconto": 0.0,
+        "descricao": "Cozinhar com praticidade, rapidez e segurança é tudo o que desejamos, com 3 litros de capacidade, ela possui o tamanho perfeito para o preparo de receitas do dia a dia."
+    },
+    {
+        "id": 15,
+        "nome": "Poltrona Pisces em veludo",
+        "preco": "649,09",
+        "desconto": 0.0,
+        "descricao": "Busca inovação,conforto, durabilidade e sustentabilidade para sua sala de estar? Com a Poltrona Pisces você tem tudo isso em uma única poltrona, ela com certeza será o diferencial na sua decoração."
+    }
+]

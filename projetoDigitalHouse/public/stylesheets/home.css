@@ -6,6 +6,7 @@ body {
 .logo {
     height: 50px;
     width: 100px;
+    margin-left: 1%;
 }
 
 .barra-logo-menu {
@@ -17,9 +18,11 @@ body {
     align-items: center;
 }
 
-.menu-navegacao {
-    margin-right: 35%;
+.menu-navegacao a{
+    /* text-decoration: none; */
+    color: black;
 }
+
 .carrinho-icon-add{
     width: 20%;
     margin-left: 78%;
@@ -39,17 +42,14 @@ body {
 }
 
 .lupa-icon {
-    height: 10px;
-    width: 20px;
-}
-
-select.categoria>option {
-    font-size: 1.2em;
+    height: 15px;
+    width: 30px;
 }
 
 .barra-pesquisa {
     margin: 0 10px;
     font-size: 1.2em;
+    text-align: center;
 }
 
 .div-barra-pesquisa {
@@ -57,12 +57,6 @@ select.categoria>option {
     display: flex;
     width: 100%;
     justify-content: center;
-}
-
-.sugestoes-pesquisa {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 35% 0px 37%;
 }
 
 .banner-promocao {
@@ -81,6 +75,7 @@ select.categoria>option {
 }
 
 .arrow-right {
+    cursor: pointer;
     width: 1.5%;
     height: 40px;
     opacity: 50%;
@@ -88,6 +83,7 @@ select.categoria>option {
 }
 
 .arrow-left {
+    cursor: pointer;
     opacity: 50%;
     transform: rotate(180deg);
     width: 1.5%;
