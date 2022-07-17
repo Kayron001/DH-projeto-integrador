@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+ }
+
+.header{
+    background-color: #f7f7f7;
+    box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
+    height: 6em;
+    width: 100%;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#logotipo_header{   
+    width: 5em;
+}
+
+.navigation_header_links a{
+    padding: 20px;
+    text-decoration: none;
+    color: #222446;
+    transition: 500ms;
+    font-weight: bold;
+}
+
+.navigation_header_links a:hover{
+    color: dodgerblue
+}
+
+.main{
+    height: 50em;
+    width: 100%;
+}
+
+.main_one{
+    height: 20em;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(20,147,220),rgb(17,54,71));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first_main_apresentation{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+#title_sobre_nos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.8em;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 1.222em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align:left;
+    text-align: center;
+}
+
+#text_sobre_nos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 1.222em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align:left;
+}
+
+.ilustative_negociation_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    width: 50%;
+    height: 100%;
+}
+
+#background_image_two{
+    height: 85%;
+    width: 90%;
+}
+
+.spacing{
+    height: 1em;
+}
+
+.main_two{
+    height: 10.5em;
+}
+
+.navigation_one{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_box{
+    height: 100%;
+    width: 98%;
+    color: #F7F7F7;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    transform: translate(0%,0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_user{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #F7F7F7;
+    outline: none;
+    color: #F7F7F7;
+    font-size: 17px;
+    width: 90%;
+    letter-spacing: 2px;
+}
+
+.label_input{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.input_user:focus ~ .label_input, .input_user:valid ~ .label_input{
+    top: -1px;
+    font-size: 20px;
+    color: #F7F7F7;
+}
+
+.navigation_two{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
