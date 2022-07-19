@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nome": "Fogão cooktop de 4 queimadores",
+        "preco": "2.499,99",
+        "desconto": 0.28,
+        "descricao": "O Fogão 4 queimadores da Fischer possui mesa em vidro temperado, 1 queimador rápido de 3000W e três queimadores semirrápidos de 1750W. Nas cor Preto Ébano",
+        "src": "/images/home/produto10.png"
+    },
+    {
+        "id": 2,
+        "nome": "Panela de pressão eletrica Philco",
+        "preco": "997,00",
+        "desconto": 0.0,
+        "descricao": "Cozinhar com praticidade, rapidez e segurança é tudo o que desejamos, com 3 litros de capacidade, ela possui o tamanho perfeito para o preparo de receitas do dia a dia.",
+        "src": "/images/home/produto13.png"
+    },
+    {
+        "id": 3,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 4,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 5,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 6,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 7,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 8,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    }
+]

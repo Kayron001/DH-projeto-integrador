@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nome": "Armário Aurora - Wood e Preto",
+        "preco": "1.299,99",
+        "desconto": 0.34,
+        "descricao": "O armário Aurora foi desenvolvido para oferecer praticidade no seu dia a dia, proporcionando muito mais comodidade na hora de organizar suas roupas, com duas gavetas na parte externa para organização de peças menores, com corrediças metálicas que permite um deslize mais seguro e suave. Ideal para ambientes com pouco espaço.",
+        "src": "/images/home/produto5.png"
+    },
+    {
+        "id": 2,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 3,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 4,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 5,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 6,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 7,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 8,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nome": "Sofá retratil Living de dois lugares",
+        "preco": "1.499,99",
+        "desconto": 0.46,
+        "descricao": "Se quer receber os amigos e familiares com muita elegância, o Sofá Living é a opção ideal. O design aposta na simplicidade das linhas e das formas, perfeito para um ambiente contemporâneo. A base e pés  em madeira, espumas D28 e revestimento em Linho garantem resistência e durabilidade ao produto. Você acaba de encontrar o item que faltava para sua sala! Não Perca.",
+        "src": "/images/produtos/sofas/produto1.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Poltrona Pisces em veludo",
+        "preco": "649,09",
+        "desconto": 0,
+        "descricao": "Busca inovação,conforto, durabilidade e sustentabilidade para sua sala de estar? Com a Poltrona Pisces você tem tudo isso em uma única poltrona, ela com certeza será o diferencial na sua decoração.",
+        "src": "/images/produtos/sofas/produto14.png"
+    },
+    {
+        "id": 3,
+        "nome": "Sofá Cinza Confort Retrátil e Reclinável",
+        "preco": "1.219,00",
+        "desconto": 0,
+        "descricao": "Sabe aquela sensação de felicidade e satisfação que você sente quando faz uma boa escolha?! Pois bem, essa é a sensação de comprar um sofá Compact. Um produto moderno, com design elegante que combina com qualquer ambiente e o deixa ainda mais lindo e aconchegante.",
+        "src": "/images/produtos/sofas/sofa1.png"
+    },
+    {
+        "id": 4,
+        "nome": "Sofá dois Lugares Priscila Suedi Cinza",
+        "preco": "1.549,99",
+        "desconto": 0.48,
+        "descricao": "Só de olhar para essas almofadas dá vontade de se aconchegar, né? Graças à espuma usada para o enchimento delas e também do assento e encosto do produto, parece que o seu corpo está sendo abraçado e você consegue curtir muito mais os momentos relax.",
+        "src": "/images/produtos/sofas/sofa2.png"
+    },
+    {
+        "id": 5,
+        "nome": "Sofá Inglaterra",
+        "preco": "1.749,49",
+        "desconto": 0.4,
+        "descricao": "O estofado Inglaterra é ideal para completar sua sala de estar com um belo visual, abrilhantando ainda mais o seu espaço. Estofado retratil com tecido aveludado, confortavel e de facil limpeza. Design moderno que encanta e tira suspiros, percinstas e molas bonnel trazem a segurança eo conforto que sua familia precisam, alem dos ajustes para achar o modo que mais te agrada !",
+        "src": "/images/produtos/sofas/sofa3.png"
+    },
+    {
+        "id": 6,
+        "nome": "Sofá Retrátil e Reclinável Nobel",
+        "preco": "1.397,97",
+        "desconto": 0,
+        "descricao": "O aconchego da sua sala de estar está garantido com a presença do Sofá Amarone. O encosto reclinável, assento retrátil e a chaise são formas de fazer com que o produto se adapte ao que você precisa, seja esticar as pernas para descansar e curtir um filminho ou utilizá-lo para receber as visitas em casa.",
+        "src": "/images/produtos/sofas/sofa4.png"
+    },
+    {
+        "id": 7,
+        "nome": "Sofá com Divã Esquerdo Merlot Camurça",
+        "preco": "1.997,97",
+        "desconto": 0.3,
+        "descricao": "Enquanto a estrutura em madeira eucalipto reflorestada oferece o melhor para o seu corpo, o visual da peça também é um primor: o tecido nobel camurça é sofisticado, já os detalhes em costura fecham com chave de ouro a identidade desse móvel.",
+        "src": "/images/produtos/sofas/sofa5.png"
+    },
+    {
+        "id": 8,
+        "nome": "Sofá dois lugares em Veludo Bege Argos",
+        "preco": "1209,09",
+        "desconto": 0.15,
+        "descricao": "O Sofá dois lugares em Veludo Bege Argos retrátil e reclinável Gladiador é perfeito para dar um toque especial à sua sala de estar. Com design moderno e com linhas retas, ele se encaixa perfeitamente na decoração do seu ambiente. Sua estrutura é produzida de madeira Eucalipto reflorestado, tratada e com controle de umidade, com tubo de ferro retrátil, facilitando no momento de expandir seu tamanho.",
+        "src": "/images/produtos/sofas/sofa5.png"
+    }
+]

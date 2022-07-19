@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nome": "Smartphone Motorola G270 Mega Plus",
+        "preco": "3.499,99",
+        "desconto": 0.48,
+        "descricao": "O Smartphoe Motorola G270 Mega Plus é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 6.6 polegadas, que coloca esse Poco no topo de sua categoria. A resolução também é alta: 2400x1080 pixel. Quanto às funções, no Motorola G270 Mega Plus realmente não falta nada.",
+        "src": "/images/home/produto4.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 3,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 4,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 5,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 6,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 7,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    },
+    {
+        "id": 8,
+        "nome": "",
+        "preco": "",
+        "desconto": 0,
+        "descricao": "",
+        "src": ""
+    }
+]

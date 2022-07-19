@@ -4,104 +4,111 @@
         "nome": "Sofá retratil Living de dois lugares",
         "preco": "1.499,99",
         "desconto": 0.46,
-        "descricao": "Se quer receber os amigos e familiares com muita elegância, o Sofá Living é a opção ideal. O design aposta na simplicidade das linhas e das formas, perfeito para um ambiente contemporâneo. A base e pés  em madeira, espumas D28 e revestimento em Linho garantem resistência e durabilidade ao produto. Você acaba de encontrar o item que faltava para sua sala! Não Perca."
+        "descricao": "Se quer receber os amigos e familiares com muita elegância, o Sofá Living é a opção ideal. O design aposta na simplicidade das linhas e das formas, perfeito para um ambiente contemporâneo. A base e pés  em madeira, espumas D28 e revestimento em Linho garantem resistência e durabilidade ao produto. Você acaba de encontrar o item que faltava para sua sala! Não Perca.",
+        "src": "/images/produtos/sofas/produto1.jpg"
     },
     {
         "id": 2,
         "nome": "Cama de casal",
         "preco": "1.299,89",
         "desconto": 0.3,
-        "descricao": "Produto desenvolvido com madeira de Pinus de reflorestamento 100% maciça, ecologicamente correta. Esse produto de alta resistência e grande performance foi desenvolvido para o cliente que procura uma cama que suporte 200kg"
+        "descricao": "Produto desenvolvido com madeira de Pinus de reflorestamento 100% maciça, ecologicamente correta. Esse produto de alta resistência e grande performance foi desenvolvido para o cliente que procura uma cama que suporte 200kg",
+        "src": "/images/produtos/camas/produto2.jpg"
     },
     {
         "id": 3,
         "nome": "Mesa para área externa",
         "preco": "997,00",
         "desconto": 0.5,
-        "descricao": "Mesa redonda industrial para area externa 90x90 estilosa e com um desing versátil, é capaz de combinar tanto com a decoração interna, quanto com a externa. Tenha mais sofisticação na sua casa! A mesa possui tampo em madeira maciça, e sua base é feita de tubos metálicos."
+        "descricao": "Mesa redonda industrial para area externa 90x90 estilosa e com um desing versátil, é capaz de combinar tanto com a decoração interna, quanto com a externa. Tenha mais sofisticação na sua casa! A mesa possui tampo em madeira maciça, e sua base é feita de tubos metálicos.",
+        "src": "/images/produtos/outros/produto3.png"
     },
     {
         "id": 4,
         "nome": "Smartphone Motorola G270 Mega Plus",
         "preco": "3.499,99",
         "desconto": 0.48,
-        "descricao": "O Smartphoe Motorola G270 Mega Plus é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 6.6 polegadas, que coloca esse Poco no topo de sua categoria. A resolução também é alta: 2400x1080 pixel. Quanto às funções, no Motorola G270 Mega Plus realmente não falta nada."
+        "descricao": "O Smartphoe Motorola G270 Mega Plus é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 6.6 polegadas, que coloca esse Poco no topo de sua categoria. A resolução também é alta: 2400x1080 pixel. Quanto às funções, no Motorola G270 Mega Plus realmente não falta nada.",
+        "src": "/images/produtos/celulares/produto4.jpg"
     },
     {
         "id": 5,
-        "nome": "Smartphone Motorola G270 Mega Plus",
-        "preco": "3.499,99",
-        "desconto": 0.48,
-        "descricao": "O Smartphoe Motorola G270 Mega Plus é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 6.6 polegadas, que coloca esse Poco no topo de sua categoria. A resolução também é alta: 2400x1080 pixel. Quanto às funções, no Motorola G270 Mega Plus realmente não falta nada."
-    },
-    {
-        "id": 6,
         "nome": "Armário Aurora - Wood e Preto",
         "preco": "1.299,99",
         "desconto": 0.34,
-        "descricao": "O armário Aurora foi desenvolvido para oferecer praticidade no seu dia a dia, proporcionando muito mais comodidade na hora de organizar suas roupas, com duas gavetas na parte externa para organização de peças menores, com corrediças metálicas que permite um deslize mais seguro e suave. Ideal para ambientes com pouco espaço."
+        "descricao": "O armário Aurora foi desenvolvido para oferecer praticidade no seu dia a dia, proporcionando muito mais comodidade na hora de organizar suas roupas, com duas gavetas na parte externa para organização de peças menores, com corrediças metálicas que permite um deslize mais seguro e suave. Ideal para ambientes com pouco espaço.",
+        "src": "/images/produtos/guardaRoupas/produto5.png"
     },
     {
-        "id": 7,
+        "id": 6,
         "nome": "Cadeira acolchoada extra confort",
         "preco": "399,49",
         "desconto": 0,
-        "descricao": "Conjuro de cadeiras acolchoados, ótimo para mesa de jantar, escolha o que é melhor para você, duas, quatro ou seis cadeiras."
+        "descricao": "Conjuro de cadeiras acolchoados, ótimo para mesa de jantar, escolha o que é melhor para você, duas, quatro ou seis cadeiras.",
+        "src": "/images/produtos/outros/produto6.png"
     },
     {
-        "id": 8,
+        "id": 7,
         "nome": "Monitor gamer 27 polegadas",
         "preco": "789,89",
         "desconto": 0,
-        "descricao": "Monitor Gamer, ótimo balanceamento de cores e alta taxa de resposta, perfeito para jogar jogos em 60fp/s."
+        "descricao": "Monitor Gamer, ótimo balanceamento de cores e alta taxa de resposta, perfeito para jogar jogos em 60fp/s.",
+        "src": "/images/produtos/outros/produto7.png"
     },
     {
-        "id": 9,
+        "id": 8,
         "nome": "Mochila antifurto super segura",
         "preco": "229,09",
         "desconto": 0,
-        "descricao": "Mochila antifurto, com usb interno para fácil carregamento atráves de powerbank, ideial para levar notebook, produto acompanha cadeado."
+        "descricao": "Mochila antifurto, com usb interno para fácil carregamento atráves de powerbank, ideial para levar notebook, produto acompanha cadeado.",
+        "src": "/images/produtos/outros/produto8.png"
     },
     {
-        "id": 10,
+        "id": 9,
         "nome": "Armário de cozinha valência em MDF",
         "preco": "1.290,99",
         "desconto": 0.3,
-        "descricao": "A Cozinha valência deixa o ambiente ainda mais convidativo e sempre pronto para te ajudar. Produzido com materiais de resistência e qualidade, é a melhor opção para sua cozinha."
+        "descricao": "A Cozinha valência deixa o ambiente ainda mais convidativo e sempre pronto para te ajudar. Produzido com materiais de resistência e qualidade, é a melhor opção para sua cozinha.",
+        "src": "/images/produtos/outros/produto9.png"
     },
     {
-        "id": 11,
+        "id": 10,
         "nome": "Fogão cooktop de 4 queimadores",
         "preco": "2.499,99",
         "desconto": 0.28,
-        "descricao": "O Fogão 4 queimadores da Fischer possui mesa em vidro temperado, 1 queimador rápido de 3000W e três queimadores semirrápidos de 1750W. Nas cor Preto Ébano"
+        "descricao": "O Fogão 4 queimadores da Fischer possui mesa em vidro temperado, 1 queimador rápido de 3000W e três queimadores semirrápidos de 1750W. Nas cor Preto Ébano",
+        "src": "/images/produtos/eletrodomesticos/produto10.png"
     },
     {
-        "id": 12,
+        "id": 11,
         "nome": "Mesa de computador back in black",
         "preco": "549,09",
         "desconto": 0,
-        "descricao": "O ambiente de trabalho ou estudos precisa estar sempre organizado, pois ele contribui diretamente no nosso foco. E para isso, a Mesa Office da Notável Móveis é o item certo."
+        "descricao": "O ambiente de trabalho ou estudos precisa estar sempre organizado, pois ele contribui diretamente no nosso foco. E para isso, a Mesa Office da Notável Móveis é o item certo.",
+        "src": "/images/produtos/outros/produto11.png"
     },
     {
-        "id": 13,
+        "id": 12,
         "nome": "Guarda-Roupa de casal Reno em MDF",
         "preco": "1.879,97",
         "desconto": 0,
-        "descricao": "O Guarda-Roupa Casal Reno da Madesa traz uma combinação perfeita entre design moderno, ótima disposição interna e materiais de qualidade. São três portas de correr."
+        "descricao": "O Guarda-Roupa Casal Reno da Madesa traz uma combinação perfeita entre design moderno, ótima disposição interna e materiais de qualidade. São três portas de correr.",
+        "src": "/images/produtos/guardaRoupas/produto12.png"
     },
     {
-        "id": 14,
+        "id": 13,
         "nome": "Panela de pressão eletrica Philco",
         "preco": "997,00",
         "desconto": 0.0,
-        "descricao": "Cozinhar com praticidade, rapidez e segurança é tudo o que desejamos, com 3 litros de capacidade, ela possui o tamanho perfeito para o preparo de receitas do dia a dia."
+        "descricao": "Cozinhar com praticidade, rapidez e segurança é tudo o que desejamos, com 3 litros de capacidade, ela possui o tamanho perfeito para o preparo de receitas do dia a dia.",
+        "src": "/images/produtos/eletrodomesticos/produto13.png"
     },
     {
-        "id": 15,
+        "id": 14,
         "nome": "Poltrona Pisces em veludo",
         "preco": "649,09",
         "desconto": 0,
-        "descricao": "Busca inovação,conforto, durabilidade e sustentabilidade para sua sala de estar? Com a Poltrona Pisces você tem tudo isso em uma única poltrona, ela com certeza será o diferencial na sua decoração."
+        "descricao": "Busca inovação,conforto, durabilidade e sustentabilidade para sua sala de estar? Com a Poltrona Pisces você tem tudo isso em uma única poltrona, ela com certeza será o diferencial na sua decoração.",
+        "src": "/images/produtos/sofas/produto14.png"
     }
 ]
