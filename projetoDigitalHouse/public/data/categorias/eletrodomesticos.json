@@ -17,50 +17,50 @@
     },
     {
         "id": 3,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Micro-ondas Retrô Philco",
+        "preco": "999,90",
+        "desconto": 0.2,
+        "descricao": "Sua cozinha precisa de um toque classico, e com o Micro-ondas Retrô Philco ela vai ganhar algo mais que especial. E claro na praticidade e qualidade de um poduto Philco. São 1400W de potência e 12 programas de prepare.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico1.png"
     },
     {
         "id": 4,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Micro-ondas LG Easy Clean Preto 30L",
+        "preco": "839,00",
+        "desconto": 0.4,
+        "descricao": "Ninguém gosta de perder tempo limpando o micro-ondas. Por isso, com a LG você tem o revestimento Limpa Fácil. A gordura não gruda nas paredes e você limpa em segundos. Sem produtos químicos e sem esforço.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico2.png"
     },
     {
         "id": 5,
-        "nome": "",
-        "preco": "",
+        "nome": "Cafeteira Nescafé Dolce Gusto Infinissima",
+        "preco": "899,99",
         "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "descricao": "Desfrute das suas bebidas favoritas com a nova máquina de café automática Dolce Gusto Infinissima Touch. Com o simples toque, prepare mais de 35 combinações criativas.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico3.png"
     },
     {
         "id": 6,
-        "nome": "",
-        "preco": "",
+        "nome": "Torradeira Elétrica Electrolux Experience",
+        "preco": "249,00",
         "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "descricao": "A torradeira Electrolux conta com 7 níveis de tostagem para o seu pão, você escolhe o ponto ideal para seu paladar, obtendo torradas deliciosas para o café da manhã ou da tarde. Caso você queira preparar waffles ou pães congelados, isso não será um problema, pois a torradeira conta com a Função Descongelar.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico4.png"
     },
     {
         "id": 7,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Torradeira de Pães Elétrica Vermelha Duo Gourmet",
+        "preco": "449,49",
+        "desconto": 0.15,
+        "descricao": "Deixe seu pão do modo que preferir podendo fazer receitas diferentes! De forma prática e rápida consegue fazer 2 pães de uma só vez! Após o grau de tostagem determinado ter sido finalizado o pão pula sozinho para fora da tostadeira.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico5.png"
     },
     {
         "id": 8,
-        "nome": "",
-        "preco": "",
+        "nome": "Grill Elétrico Multiuso, Preto e Inox",
+        "preco": "439,49",
         "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "descricao": "Com aquecimento nos dois lados, você pode grelhar nas duas chapas com ele aberto ou fechado. Possui 180° de abertura para facilitar aind amais na hora de preparar uma refeição saudável. Conta ainda com coletor de gordura, que auxilia na hora da limpeza.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico6.png"
     }
 ]

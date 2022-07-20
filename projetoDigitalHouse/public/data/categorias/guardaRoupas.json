@@ -9,58 +9,58 @@
     },
     {
         "id": 2,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
+        "nome": "Smartphone Motorola Moto E2000",
+        "preco": "1.749,00",
+        "desconto": 0.2,
+        "descricao": "Smartphone Motorola Moto E2000, 32GB, 2GB RAM, Octa Core, Câmera 13MP, Azul Os filmes e as video chamadas ficam muito melhores em uma tela ultra-wide. A tela Max Vision de 6,5″ HD+ tem uma proporção de 20:9 para você ver tudo sem rolar para lá e para cá. Ela cobre 87% do dispositivo: é tela de sobra, mas você ainda consegue usar o telefone com uma mão só tranquilamente.",
         "src": ""
     },
     {
         "id": 3,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
+        "nome": "Smartphone Samsung Moto TS3000",
+        "preco": "1.700,88",
+        "desconto": 0.15,
+        "descricao": "Smartphone Samsung Moto TS3000, 128GB, 4G, Octa-Core, 4GB RAM, Câmera Quádrupla, Verde + Capa Protetora. Dê vida a jogos, filmes e videochamadas com a tela Max Vision HD+ de 6,5 polegadas. E com uma taxa de 90 Hz no Smartphone Moto G20, o lag dá lugar a uma visualização mais fluida e um desempenho muito mais suave",
         "src": ""
     },
     {
         "id": 4,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
+        "nome": "Smartphone ASUS POOG Phone 5s 8GB/ 128GB Preto",
+        "preco": "3.949,10",
+        "desconto": 0.2,
+        "descricao": "POOG Phone 5s é o smartphone gamer com o mais recente processador Qualcomm® Snapdragon™ 888+ com tecnologia 5G¹, incrivelmente rápido e construído para satisfazer até o gamer mais hardcore, entregando até 12GB de memória RAM com mais de 3200MHz de clock, por isso é incrivelmente rápido tem a incrível tela de 144Hz/1ms, que traz qualidade perfeita para seus jogos.",
         "src": ""
     },
     {
         "id": 5,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
+        "nome": "Tablet Motorola tabe H7800 Aqua Platinum - 64 GB",
+        "preco": "1.799,10",
+        "desconto": 0.15,
+        "descricao": "Ouça um som imersivo. Com os quatro alto-falantes e Dolby Atmos®, você curte um som envolvente nos seus jogos, músicas e filmes favoritos e muito mais. É mais do que ouvir: você sente a diferença. Com um processador octa-core MediaTek® Helio G90T líder na categoria, você curte seu entretenimento com desempenho responsivo e sem lag.",
         "src": ""
     },
     {
         "id": 6,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
+        "nome": "Tablet Samsung Galaxy F785 Lite 4G, 32GB",
+        "preco": "2.619,53",
+        "desconto": 0.3,
+        "descricao": "Galaxy Tab F785 Lite (4G) 32 GB, Projetado para ir aonde você for com gestos simples para usar com apenas uma mão e possui uma câmera para capturar seus momentos ao vivo Feito para ir aonde você for Não troque estilo por conveniência. O Galaxy F785 Lite oferece os dois em uma estrutura fina. Com espessura de 8,0 mm e 371 g de peso, ele é super portátil e pode ser guardado com facilidade na bolsa sem pesar. ",
         "src": ""
     },
     {
         "id": 7,
-        "nome": "",
-        "preco": "",
+        "nome": "Apple iPad (940ª geração) G496 Bionic",
+        "preco": "2.849,00",
         "desconto": 0,
-        "descricao": "",
+        "descricao": "Cheio de potência. Fácil de usar. Versátil. Criado para fazer tudo o que você ama. Trabalhe, jogue, crie, aprenda, conecte-se e vá além. Tudo isso por menos do que você imagina. A tela Retina envolvente de 10,2 polegadas é perfeita para desenhar com precisão, trabalhar num projeto ou ver um filme.",
         "src": ""
     },
     {
         "id": 8,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
+        "nome": "Microsoft Surface Tábua Surface Pro 85 Mega Plus 32GB/1TB 12.3",
+        "preco": "2.089.99 ",
+        "desconto": 0.4,
+        "descricao": "Com um design fino, um sistema de entretenimento dinâmico e um desempenho excecional, o novo Surface é um novo e elegante companheiro para a sua vida. Mergulhe nas coisas que adora e partilhe facilmente os seus momentos favoritos. Aprenda, explore, ligue-se e inspire-se. O Microsoft Surface Tábua Surface Pro 85 Mega Plus foi criado para impressionar um aparelho verdadeiramente espantoso que proporciona fantásticas experiências envolventes.",
         "src": ""
     }
 ]

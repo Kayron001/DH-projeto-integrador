@@ -9,58 +9,58 @@
     },
     {
         "id": 2,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Guarda-Roupa Solteiro Retrô ",
+        "preco": "1003,49",
+        "desconto": 0.15,
+        "descricao": "Item necessário para o bom funcionamento do quarto, o Guarda-Roupa Retrô é o móvel ideal para que a arrumação do ambiente fique em dia. Equipado com 3 portas e 3 gavetas, ele tem compartimentos para vestuário, calçados, acessórios, cosméticos e até caixas organizadoras, tudo para garantir que peças fundamentais à sua rotina estejam sempre à mão",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas1.png"
     },
     {
         "id": 3,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Guarda Roupa e Cômoda",
+        "preco": "1599,73",
+        "desconto": 0.3,
+        "descricao": "Ótimo aliado não só para o visual do quarto, esse guarda-roupa é uma mão na roda quando se trata de manter o ambiente em ordem: os compartimentos internos são protegidos pelas portas com dobradiças metálicas que são mais firmes e ideais para guardar seus itens pessoais.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas2.png"
     },
     {
         "id": 4,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Guarda-Roupa Casal seis portas Havana Demolição",
+        "preco": "1.649,49",
+        "desconto": 0.5,
+        "descricao": "Garanta a organização em seu quarto! Conte com o Guarda-Roupa Havana para arrumar a bagunça de roupas espalhadas. Confeccionado com matérias de qualidade, ele possui 6 portas, 2 gavetas e prateleiras espaçosas para deixar os seus pertences arrumados e sempre à mão.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas3.png"
     },
     {
         "id": 5,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Guarda Roupa Moval Assis Nature Branco",
+        "preco": "1399,00",
+        "desconto": 0.3,
+        "descricao": "A corrediça metálica usada nas gavetas é ideal para deixar a abertura mais fácil, e, de quebra, ainda tem firmeza para receber maiores quantidades de roupas ou objetos. Assim, você consegue armazenar seus pertences sem se preocupar com possíveis avarias.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas4.png"
     },
     {
         "id": 6,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Guarda-Roupa Casal Ana seis portas seis gavetas Preto",
+        "preco": "1.479,92",
+        "desconto": 0.2,
+        "descricao": "Que tal o Guarda-Roupa Ana?Item necessário para o bom funcionamento do quarto, o Guarda-Roupa Ana é o móvel ideal para que a arrumação do ambiente fique em dia. Equipado com 6 portas e 6 gavetas, ele tem compartimentos para vestuário, calçados, acessórios, cosméticos e até caixas organizadoras.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas5.png"
     },
     {
         "id": 7,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Guarda-Roupa Casal com seis Portas e sete Gavetas Paris-Docelar",
+        "preco": "1.896,11",
+        "desconto": 0.6,
+        "descricao": "Com espaço interno de sobra para te ajudar no dia a dia, o guarda-roupa Paris Docelar é uma ótima opção para quem quer arrumar o quarto com facilidade. Sem contar que, com sua estrutura robusta, ele oferece confiança e um toque de elegância no ambiente.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas6.png"
     },
     {
         "id": 8,
-        "nome": "",
-        "preco": "",
-        "desconto": 0,
-        "descricao": "",
-        "src": ""
+        "nome": "Guarda Roupa Dinda Rose",
+        "preco": "1.211,18",
+        "desconto": 0.2,
+        "descricao": "Mamãe e Papai , chegou a hora tão esperada ...de montar o quartinho do bebê!!! Foi elaborada com muito carinho cada detalhe desse Guarda Roupa, o Dinda é um modelo Retrô super moderno, com puxadores em cava e seus pés produzidos em madeira maciça, ele irá acomodar direitinho todos os pertences do seu bebê.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas7.png"
     }
 ]
