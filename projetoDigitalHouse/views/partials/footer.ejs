@@ -1,4 +1,4 @@
-<footer class="footer">
+<div class="footer">
     <div>
         <a href="/"><img class="logo-footer" src="/images/home/logo.png" alt=""></a>
     </div>
@@ -33,5 +33,51 @@
             <button class="butao-contato-footer">Contato</button>
         </p>
     </div>
-</footer>
-</html>
+</div>
+
+<style>
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background-color: whitesmoke;
+    }
+
+    .logo-footer {
+        margin: 12% 2% 1% 7%;
+        width: 80%;
+        height: 60%;
+    }
+
+    .rede-sociais-footer {
+        margin: 5% 15% 0 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redesocial-icon {
+        cursor: pointer;
+        margin: 8% 3%;
+        width: 17%;
+        height: 45%;
+    }
+
+    .opcao-titulo {
+        text-decoration: underline;
+    }
+
+    .opcao-footer {
+        cursor: pointer;
+    }
+
+    .butao-contato-footer {
+        cursor: pointer;
+        color: whitesmoke;
+        background-color: rgb(35, 149, 255);
+        border: 1px solid gray;
+        box-shadow: 0px 4px 10px 0 black;
+        border-radius: 5px;
+        padding: 2% 10%;
+        font-size: 1.5em;
+    }
+</style>
