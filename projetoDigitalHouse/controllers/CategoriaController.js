@@ -1,5 +1,5 @@
 const CategoriaController = {
-    view: (req, res) =>{
+    view: (req, res) => {
         return res.render('../views/pagCategoria.ejs')
     }
 }
