@@ -1,142 +1,46 @@
-body{font-family: ' Arial', sans-serif;
-   margin: 0%;
-    width:100%;
-
-}
-
-.form{width: 200px;
-    /* display: flex;
-    flex-direction: row; */
-   width: 100%;
-    padding-top: 0;
-    text-align: justify;
+.container {
+    height: 70vh;
+    background-color: whitesmoke;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
 
-.card{
-    cursor: pointer;
-    box-shadow: 6px 8px 6px 10px rgb(64, 150, 53);
-    position: absolute;
-    padding: 100px; 
-    left: 10%;
-    width: auto;
-    
-    border-radius: 10px;
-    text-align: center;
-
-}
-.card-grup{
-    margin-bottom: 12px;
-
-}
-
-
-.card-grup > label{
-    cursor: pointer;
-    text-align: center;
-    width: 100%;
-    color: brown;
-    display: block;
-}
-.card-grup > input{
-    border-radius: 10px;
-    outline: 0;
-    width: 100px;
-    height: 15px;
-    padding: 5px;
-    color: blue;
-}
-button{
-    background-color: blue;
-    color: white;
-    width: 80%;
-    padding: 6px;
-    border-radius: 10px;
-    outline: none;
-    align-items: center;
-}
-.card-grup > button{
-    background-color: blue;
-    width: 100%;
-    border-radius: 30px;
-    padding: 15px;
-    color: white;
-    border: 0px;
-}
-
-.container{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    height: 100vh;
-    background-color: aquamarine;
-}
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 50%;
-    
-    border-radius: 15px;
-}
-
-/*segundo quadro*/
-
-.content-second{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(122, 240, 181);
-
-}
-.novo-cadastro{
-    cursor: pointer;
-    box-shadow:6px 8px 6px 10px rgb(64, 150, 53);
-    background-color: aquamarine;
-    padding: 85px; 
+.card {
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: rgb(35, 149, 255);
     border-radius: 20px;
+    padding: 5% 5%;
+    border: 1px solid black;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.7);
     text-align: center;
-    position: absolute;
-
-}
-.card-gruopd{
-    margin-bottom: 12px;
-
 }
 
+.card-grup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.card-gruopd > label{
-    width: 100%;
-    color: brown;
-    display: block;
-    width: fit-content;
+.card-grup>input {
+    margin: 4% 0;
+    font-weight: bold;
+    padding: 4%;
+    font-size: 1.2rem;
 }
-input{
-    padding: 12px;
-    border: 8px;
-    border-radius: 10px;
-    font-size: 15px;
-    text-align: justify;
-    width: 100%;
-    outline: none;
 
+.card-grup a button {
+    margin-top: 10%;
+    font-size: 1.2rem;
+    border-radius: 20px;
 }
-.card-gruopd > input{
-    border-radius: 10px;
-    outline: 0;
-    width: 100%;
-    height: 15px;
-    padding: 5px;
+
+.card-grup a button:hover {
+    cursor: pointer;
+    background-color: rgb(169, 169, 169);
 }
-.card-gruopd > button{
-    background-color: blue;
-    width: 100%;
-    border-radius: 30px;
-    padding: 15px;
-    color: white;
-    border: 0px;
+
+.card-grup a:hover {
+    cursor: default;
 }

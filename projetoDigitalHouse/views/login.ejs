@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,79 +9,27 @@
     <link rel="stylesheet" href="/stylesheets/login.css">
 
 </head>
+
 <body>
-    <div class ="container">
-    <div class = "content first-content">
-        
-    
-    <form class="form">
-        
-        <!-- inicio do primeiro quadro -->
+    <header>
+        <%- include('./partials/header') %>
+    </header>
+    <div class="container">
         <div class="card">
-
-            
-
-            <img src="/images/login/facebook.svg" width="30" alt="">
-            <img src="/images/login/logo-google.svg" width="30" alt="">
-
-           <p>Login com sua conta</p>
-           <br>
-           <div class="card- grup">
-               <label>Email</label>
-               <input type="text" name="Email" placeholder="Digite seu Email"></div>
-
-                <div class="card- grup">
-            <label>Senha</label>
-            <input type="password" name="Senha" placeholder="Digite seu Senha"></div>
-
-            <div class="card- grup">
-                <label>Acessar</label>
-                <button type="submit">Acessar</button>
-                <br><br>
-                <button type="submit">Cadastre-se</button>
-            </div>
-        </div><!--fim do primerio quadro-->
-        </div> <div class = "content second-content"><!--inicio do segundo quadro-->
-        
-    
-            
-                
-                <!-- <div class="novo-cadastro"></div> -->
-                <div class="novo-cadastro">
-        
-                    
-        
-                    <img src="/images/login/facebook.svg" width="30" alt="">
-                    <img src="/images/login/logo-google.svg" width="30" alt="">
-        
-                   <p>Cadastre-se sua conta</p>
-                   <br>
-                   <div class="card-grupd">
-                       <label>Nome completo</label>
-                       <input type="text" name="Nome completo" placeholder="Digite seu Nome completo"></div>
-
-                       <div class="card-grupd">
-                        <label>Endereço</label>
-                        <input type="text" name="Endereço" placeholder="Digite seu Endereço"></div>
-
-                        <div class="card-grupd">
-                            <label>Email</label>
-                            <input type="text" name="Email" placeholder="Digite seu Email"></div>
-        
-                        <div class="card-grupd">
-                    <label>Senha</label>
-                    <input type="password" name="Senha" placeholder="Digite seu Senha"></div>
-        
-                    <div class="card-grupd">
-                        
-                        <br>
-                        <button type="submit">Cadastre-se</button>
-                    </div>
-                </div><!--fim do segundo quadro-->
+            <form class="form">
+                <div class="card-grup">
+                    <p>Digite seus dados para entrar</p>
+                    <input class="input-login" type="text" name="Email" placeholder="Email">
+                    <input class="input-login" type="password" name="Senha" placeholder="Senha">
+                    <a href=""><button type="submit">Acessar</button></a>
+                    <a href=""><button type="submit">Cadastre-se</button></a>
                 </div>
+            </form>
+        </div>
     </div>
-       
-
-  </form>
 </body>
+<footer>
+    <%- include('./partials/footer') %>
+</footer>
+
 </html>
