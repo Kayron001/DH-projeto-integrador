@@ -1,6 +1,9 @@
 const LoginController = {
-    view: (req, res) =>{
+    view: (req, res) => {
         return res.render('../views/login.ejs')
+    },
+    cadastro: (req, res) => {
+        return res.render('../views/loginCadastro.ejs')
     }
 }
 
