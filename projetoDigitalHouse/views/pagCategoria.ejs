@@ -1,34 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheets/categoria.css">
-    <title>Produtos por Categoria</title>
+    <title>Document</title>
 </head>
+
 <body>
     <header>
-        <!-- Barra de logo com menu -->
-        <div class="barra-logo-menu">
-            <a href="/"><img src="/images/home/logo.png" alt="" class="logo"></a>
-            <nav class="menu-navegacao">
-                <span>Siga nossas redes:</span>
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-                <a href="">Twitter</a>
-            </nav>
-            <span class="icone-carrinho-usuario">
-                <a href="/checkout"><img class="carrinho-icon" src="/images/home/carrinho-icon.png" alt=""></a>
-                <a href="/login"><img class="usuario-icon" src="/images/home/usuario-icon.png" alt=""></a>
-            </span>
-        </div>
-        <!-- Barra de pesquisa -->
-        <div class="div-barra-pesquisa">
-            <span><input class="barra-pesquisa" type="text" placeholder="Pesquise o que deseja comprar." size="60px">
-                <img class="lupa-icon" src="/images/home/lupa-icon.png" alt="">
-            </span>
-        </div>
+        <%- include('./partials/header') %>
     </header>
 </body>
+<footer>
+    <%- include('./partials/footer') %>
+</footer>
+
 </html>

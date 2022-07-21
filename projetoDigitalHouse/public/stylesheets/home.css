@@ -173,6 +173,10 @@ body {
     text-align: center;
 }
 
+.caixa-categoria a{
+    text-decoration: none;
+}
+
 .icone-categoria {
     width: 100px;
     height: 100px;
