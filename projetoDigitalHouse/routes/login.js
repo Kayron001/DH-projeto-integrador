@@ -6,4 +6,4 @@ const LoginController = require('../controllers/LoginController')
 router.get('/', LoginController.view)
 router.get('/cadastro', LoginController.cadastro)
 
-module.exports = router      
+module.exports = router;
