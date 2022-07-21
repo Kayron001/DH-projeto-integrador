@@ -110,5 +110,269 @@
         "desconto": 0,
         "descricao": "Busca inovação,conforto, durabilidade e sustentabilidade para sua sala de estar? Com a Poltrona Pisces você tem tudo isso em uma única poltrona, ela com certeza será o diferencial na sua decoração.",
         "src": "/images/produtos/sofas/produto14.png"
+    },
+    {
+        "id": 15,
+        "nome": "Cama Casal Box Com Sapateira Embutida",
+        "preco": "899,90",
+        "desconto": 0,
+        "descricao": "Com linhas retas e design minimalista, a Cama Casal Box Com Sapateira Embutida é a melhor opção para trazer conforto e elegância ao seu quarto. Produzida em MDF, com estrado de madeira reflorestada garante durabilidade e resistência ao móvel. Acabamento resistente com impressão UV e verniz de alta duração.",
+        "src": "/images/produtos/camas/cama1.png"
+    },
+    {
+        "id": 16,
+        "nome": "Cama Mantra com 4 Gavetões",
+        "preco": "1249,49",
+        "desconto": 0.15,
+        "descricao": "Repare bem nesta cama Kendra: é perfeita para acomodar o seu colchão e garantir noites de sono confortáveis e reconfortantes e para além disso ela ainda conta com gavetas inferiores onde poderá arrumar cobertores, edredões, roupas de cama, sapatos ou o que mais desejar.",
+        "src": "/images/produtos/camas/cama2.png"
+    },
+    {
+        "id": 17,
+        "nome": "Cama Casal com Gavetão Auxiliar Frontal",
+        "preco": "997,97",
+        "desconto": 0,
+        "descricao": "Cama Casal com Gavetão Frontal Auxiliar. Produto fabricado em MDF. Gavetão com corrediças telescópicas, perfil puxador em alumínio, acompanha rodízios. Muito útil para guardar roupas de cama, colchas, travesseiros. Ótimo custo benefício em relação a utilidade que o produto oferece, produto compacto que permite otimização do espaço em seu dormitório. Revestimento externo, pintura impressão com vernizes UV em alto relevo. Beleza e sofisticação.",
+        "src": "/images/produtos/camas/cama3.png"
+    },
+    {
+        "id": 18,
+        "nome": "Cama de Solteiro Priscila Wood",
+        "preco": "598,40",
+        "desconto": 0,
+        "descricao": "Quando procuramos por uma cama, buscamos conforto e durabilidade acima de tudo. Na cama você encontra essas duas características. Seus detalhes são um diferencial do modelo, que além de bonito é resistente e possui uma vida útil prolongada.",
+        "src": "/images/produtos/camas/cama4.png"
+    },
+    {
+        "id": 19,
+        "nome": "Cama de Casal Carolina Puro Luxo",
+        "preco": "1.897,97",
+        "desconto": 0.2,
+        "descricao": "A Cama Carolina é perfeita para quem quer aliar praticidade, bom gosto e estilo. Com as suas linhas retas e a sua cor clássica é muito harmoniosa, sendo fácil de enquadrar em qualquer ambiente.",
+        "src": "/images/produtos/camas/cama5.png"
+    },
+    {
+        "id": 20,
+        "nome": "Cama Manchester com Moldura Estofada",
+        "preco": "1.689,89",
+        "desconto": 0.1,
+        "descricao": "Transforme o seu quarto num local que seja muito mais do que apenas para descansar. Transforme-o também num espaço de bom gosto, requinte, aconchego e relaxamento com a Cama Manchester. Um móvel com presença e que vai fazer do seu quarto uma divisão onde lhe apeteça estar!",
+        "src": "/images/produtos/camas/cama6.png"
+    },
+    {
+        "id": 21,
+        "nome": "Cama solteiro 100% MDF Paris Francinni Grelhat",
+        "preco": "749,49",
+        "desconto": 0,
+        "descricao": "Para você que quer dar um diferencial e mudar visual do cantinho mais aconchegante de sua casa e, ao mesmo tempo, ter o melhor para suas noites de sono, a Cama solteiro 100% MDF Paris Francinni Grelhat é a escolha perfeita para compor o ambiente!",
+        "src": "/images/produtos/camas/cama7.png"
+    },
+    {
+        "id": 22,
+        "nome": "Guarda-Roupa Solteiro Retrô ",
+        "preco": "1003,49",
+        "desconto": 0.15,
+        "descricao": "Item necessário para o bom funcionamento do quarto, o Guarda-Roupa Retrô é o móvel ideal para que a arrumação do ambiente fique em dia. Equipado com 3 portas e 3 gavetas, ele tem compartimentos para vestuário, calçados, acessórios, cosméticos e até caixas organizadoras, tudo para garantir que peças fundamentais à sua rotina estejam sempre à mão",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas1.png"
+    },
+    {
+        "id": 23,
+        "nome": "Guarda Roupa e Cômoda",
+        "preco": "1599,73",
+        "desconto": 0.3,
+        "descricao": "Ótimo aliado não só para o visual do quarto, esse guarda-roupa é uma mão na roda quando se trata de manter o ambiente em ordem: os compartimentos internos são protegidos pelas portas com dobradiças metálicas que são mais firmes e ideais para guardar seus itens pessoais.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas2.png"
+    },
+    {
+        "id": 24,
+        "nome": "Guarda-Roupa Casal seis portas Havana Demolição",
+        "preco": "1.649,49",
+        "desconto": 0.5,
+        "descricao": "Garanta a organização em seu quarto! Conte com o Guarda-Roupa Havana para arrumar a bagunça de roupas espalhadas. Confeccionado com matérias de qualidade, ele possui 6 portas, 2 gavetas e prateleiras espaçosas para deixar os seus pertences arrumados e sempre à mão.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas3.png"
+    },
+    {
+        "id": 25,
+        "nome": "Guarda Roupa Moval Assis Nature Branco",
+        "preco": "1399,00",
+        "desconto": 0.3,
+        "descricao": "A corrediça metálica usada nas gavetas é ideal para deixar a abertura mais fácil, e, de quebra, ainda tem firmeza para receber maiores quantidades de roupas ou objetos. Assim, você consegue armazenar seus pertences sem se preocupar com possíveis avarias.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas4.png"
+    },
+    {
+        "id": 26,
+        "nome": "Guarda-Roupa Casal Ana seis portas seis gavetas Preto",
+        "preco": "1.479,92",
+        "desconto": 0.2,
+        "descricao": "Que tal o Guarda-Roupa Ana?Item necessário para o bom funcionamento do quarto, o Guarda-Roupa Ana é o móvel ideal para que a arrumação do ambiente fique em dia. Equipado com 6 portas e 6 gavetas, ele tem compartimentos para vestuário, calçados, acessórios, cosméticos e até caixas organizadoras.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas5.png"
+    },
+    {
+        "id": 27,
+        "nome": "Guarda-Roupa Casal com seis Portas e sete Gavetas Paris-Docelar",
+        "preco": "1.896,11",
+        "desconto": 0.6,
+        "descricao": "Com espaço interno de sobra para te ajudar no dia a dia, o guarda-roupa Paris Docelar é uma ótima opção para quem quer arrumar o quarto com facilidade. Sem contar que, com sua estrutura robusta, ele oferece confiança e um toque de elegância no ambiente.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas6.png"
+    },
+    {
+        "id": 28,
+        "nome": "Guarda Roupa Dinda Rose",
+        "preco": "1.211,18",
+        "desconto": 0.2,
+        "descricao": "Mamãe e Papai , chegou a hora tão esperada ...de montar o quartinho do bebê!!! Foi elaborada com muito carinho cada detalhe desse Guarda Roupa, o Dinda é um modelo Retrô super moderno, com puxadores em cava e seus pés produzidos em madeira maciça, ele irá acomodar direitinho todos os pertences do seu bebê.",
+        "src": "/images/produtos/guardaRoupas/guardaRoupas7.png"
+    },
+    {
+        "id": 29,
+        "nome": "Micro-ondas Retrô Philco",
+        "preco": "999,90",
+        "desconto": 0.2,
+        "descricao": "Sua cozinha precisa de um toque classico, e com o Micro-ondas Retrô Philco ela vai ganhar algo mais que especial. E claro na praticidade e qualidade de um poduto Philco. São 1400W de potência e 12 programas de prepare.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico1.png"
+    },
+    {
+        "id": 30,
+        "nome": "Micro-ondas LG Easy Clean Preto 30L",
+        "preco": "839,00",
+        "desconto": 0.4,
+        "descricao": "Ninguém gosta de perder tempo limpando o micro-ondas. Por isso, com a LG você tem o revestimento Limpa Fácil. A gordura não gruda nas paredes e você limpa em segundos. Sem produtos químicos e sem esforço.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico2.png"
+    },
+    {
+        "id": 31,
+        "nome": "Cafeteira Nescafé Dolce Gusto Infinissima",
+        "preco": "899,99",
+        "desconto": 0,
+        "descricao": "Desfrute das suas bebidas favoritas com a nova máquina de café automática Dolce Gusto Infinissima Touch. Com o simples toque, prepare mais de 35 combinações criativas.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico3.png"
+    },
+    {
+        "id": 32,
+        "nome": "Torradeira Elétrica Electrolux Experience",
+        "preco": "249,00",
+        "desconto": 0,
+        "descricao": "A torradeira Electrolux conta com 7 níveis de tostagem para o seu pão, você escolhe o ponto ideal para seu paladar, obtendo torradas deliciosas para o café da manhã ou da tarde. Caso você queira preparar waffles ou pães congelados, isso não será um problema, pois a torradeira conta com a Função Descongelar.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico4.png"
+    },
+    {
+        "id": 33,
+        "nome": "Torradeira de Pães Elétrica Vermelha Duo Gourmet",
+        "preco": "449,49",
+        "desconto": 0.15,
+        "descricao": "Deixe seu pão do modo que preferir podendo fazer receitas diferentes! De forma prática e rápida consegue fazer 2 pães de uma só vez! Após o grau de tostagem determinado ter sido finalizado o pão pula sozinho para fora da tostadeira.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico5.png"
+    },
+    {
+        "id": 34,
+        "nome": "Grill Elétrico Multiuso, Preto e Inox",
+        "preco": "439,49",
+        "desconto": 0,
+        "descricao": "Com aquecimento nos dois lados, você pode grelhar nas duas chapas com ele aberto ou fechado. Possui 180° de abertura para facilitar aind amais na hora de preparar uma refeição saudável. Conta ainda com coletor de gordura, que auxilia na hora da limpeza.",
+        "src": "/images/produtos/eletrodomesticos/eletrodomestico6.png"
+    },
+    {
+        "id": 35,
+        "nome": "Smartphone Motorola Moto E2000",
+        "preco": "1.749,00",
+        "desconto": 0.2,
+        "descricao": "Smartphone Motorola Moto E2000, 32GB, 2GB RAM, Octa Core, Câmera 13MP, Azul Os filmes e as video chamadas ficam muito melhores em uma tela ultra-wide. A tela Max Vision de 6,5″ HD+ tem uma proporção de 20:9 para você ver tudo sem rolar para lá e para cá. Ela cobre 87% do dispositivo: é tela de sobra, mas você ainda consegue usar o telefone com uma mão só tranquilamente.",
+        "src": ""
+    },
+    {
+        "id": 36,
+        "nome": "Smartphone Samsung Moto TS3000",
+        "preco": "1.700,88",
+        "desconto": 0.15,
+        "descricao": "Smartphone Samsung Moto TS3000, 128GB, 4G, Octa-Core, 4GB RAM, Câmera Quádrupla, Verde + Capa Protetora. Dê vida a jogos, filmes e videochamadas com a tela Max Vision HD+ de 6,5 polegadas. E com uma taxa de 90 Hz no Smartphone Moto G20, o lag dá lugar a uma visualização mais fluida e um desempenho muito mais suave",
+        "src": ""
+    },
+    {
+        "id": 37,
+        "nome": "Smartphone ASUS POOG Phone 5s 8GB/ 128GB Preto",
+        "preco": "3.949,10",
+        "desconto": 0.2,
+        "descricao": "POOG Phone 5s é o smartphone gamer com o mais recente processador Qualcomm® Snapdragon™ 888+ com tecnologia 5G¹, incrivelmente rápido e construído para satisfazer até o gamer mais hardcore, entregando até 12GB de memória RAM com mais de 3200MHz de clock, por isso é incrivelmente rápido tem a incrível tela de 144Hz/1ms, que traz qualidade perfeita para seus jogos.",
+        "src": ""
+    },
+    {
+        "id": 38,
+        "nome": "Tablet Motorola tabe H7800 Aqua Platinum - 64 GB",
+        "preco": "1.799,10",
+        "desconto": 0.15,
+        "descricao": "Ouça um som imersivo. Com os quatro alto-falantes e Dolby Atmos®, você curte um som envolvente nos seus jogos, músicas e filmes favoritos e muito mais. É mais do que ouvir: você sente a diferença. Com um processador octa-core MediaTek® Helio G90T líder na categoria, você curte seu entretenimento com desempenho responsivo e sem lag.",
+        "src": ""
+    },
+    {
+        "id": 39,
+        "nome": "Tablet Samsung Galaxy F785 Lite 4G, 32GB",
+        "preco": "2.619,53",
+        "desconto": 0.3,
+        "descricao": "Galaxy Tab F785 Lite (4G) 32 GB, Projetado para ir aonde você for com gestos simples para usar com apenas uma mão e possui uma câmera para capturar seus momentos ao vivo Feito para ir aonde você for Não troque estilo por conveniência. O Galaxy F785 Lite oferece os dois em uma estrutura fina. Com espessura de 8,0 mm e 371 g de peso, ele é super portátil e pode ser guardado com facilidade na bolsa sem pesar. ",
+        "src": ""
+    },
+    {
+        "id": 40,
+        "nome": "Apple iPad (940ª geração) G496 Bionic",
+        "preco": "2.849,00",
+        "desconto": 0,
+        "descricao": "Cheio de potência. Fácil de usar. Versátil. Criado para fazer tudo o que você ama. Trabalhe, jogue, crie, aprenda, conecte-se e vá além. Tudo isso por menos do que você imagina. A tela Retina envolvente de 10,2 polegadas é perfeita para desenhar com precisão, trabalhar num projeto ou ver um filme.",
+        "src": ""
+    },
+    {
+        "id": 41,
+        "nome": "Microsoft Surface Tábua Surface Pro 85 Mega Plus 32GB/1TB 12.3",
+        "preco": "2.089.99 ",
+        "desconto": 0.4,
+        "descricao": "Com um design fino, um sistema de entretenimento dinâmico e um desempenho excecional, o novo Surface é um novo e elegante companheiro para a sua vida. Mergulhe nas coisas que adora e partilhe facilmente os seus momentos favoritos. Aprenda, explore, ligue-se e inspire-se. O Microsoft Surface Tábua Surface Pro 85 Mega Plus foi criado para impressionar um aparelho verdadeiramente espantoso que proporciona fantásticas experiências envolventes.",
+        "src": ""
+    },
+    {
+        "id": 42,
+        "nome": "Sofá Cinza Confort Retrátil e Reclinável",
+        "preco": "1.219,00",
+        "desconto": 0,
+        "descricao": "Sabe aquela sensação de felicidade e satisfação que você sente quando faz uma boa escolha?! Pois bem, essa é a sensação de comprar um sofá Compact. Um produto moderno, com design elegante que combina com qualquer ambiente e o deixa ainda mais lindo e aconchegante.",
+        "src": "/images/produtos/sofas/sofa1.png"
+    },
+    {
+        "id": 43,
+        "nome": "Sofá dois Lugares Priscila Suedi Cinza",
+        "preco": "1.549,99",
+        "desconto": 0.48,
+        "descricao": "Só de olhar para essas almofadas dá vontade de se aconchegar, né? Graças à espuma usada para o enchimento delas e também do assento e encosto do produto, parece que o seu corpo está sendo abraçado e você consegue curtir muito mais os momentos relax.",
+        "src": "/images/produtos/sofas/sofa2.png"
+    },
+    {
+        "id": 44,
+        "nome": "Sofá Inglaterra",
+        "preco": "1.749,49",
+        "desconto": 0.4,
+        "descricao": "O estofado Inglaterra é ideal para completar sua sala de estar com um belo visual, abrilhantando ainda mais o seu espaço. Estofado retratil com tecido aveludado, confortavel e de facil limpeza. Design moderno que encanta e tira suspiros, percinstas e molas bonnel trazem a segurança eo conforto que sua familia precisam, alem dos ajustes para achar o modo que mais te agrada !",
+        "src": "/images/produtos/sofas/sofa3.png"
+    },
+    {
+        "id": 45,
+        "nome": "Sofá Retrátil e Reclinável Nobel",
+        "preco": "1.397,97",
+        "desconto": 0,
+        "descricao": "O aconchego da sua sala de estar está garantido com a presença do Sofá Amarone. O encosto reclinável, assento retrátil e a chaise são formas de fazer com que o produto se adapte ao que você precisa, seja esticar as pernas para descansar e curtir um filminho ou utilizá-lo para receber as visitas em casa.",
+        "src": "/images/produtos/sofas/sofa4.png"
+    },
+    {
+        "id": 46,
+        "nome": "Sofá com Divã Esquerdo Merlot Camurça",
+        "preco": "1.997,97",
+        "desconto": 0.3,
+        "descricao": "Enquanto a estrutura em madeira eucalipto reflorestada oferece o melhor para o seu corpo, o visual da peça também é um primor: o tecido nobel camurça é sofisticado, já os detalhes em costura fecham com chave de ouro a identidade desse móvel.",
+        "src": "/images/produtos/sofas/sofa5.png"
+    },
+    {
+        "id": 47,
+        "nome": "Sofá dois lugares em Veludo Bege Argos",
+        "preco": "1209,09",
+        "desconto": 0.15,
+        "descricao": "O Sofá dois lugares em Veludo Bege Argos retrátil e reclinável Gladiador é perfeito para dar um toque especial à sua sala de estar. Com design moderno e com linhas retas, ele se encaixa perfeitamente na decoração do seu ambiente. Sua estrutura é produzida de madeira Eucalipto reflorestado, tratada e com controle de umidade, com tubo de ferro retrátil, facilitando no momento de expandir seu tamanho.",
+        "src": "/images/produtos/sofas/sofa5.png"
     }
 ]
