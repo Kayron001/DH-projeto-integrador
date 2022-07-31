@@ -5,17 +5,17 @@ const produtosArquivoBase = path.join(__dirname, '../public/data/produtos/produt
 const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
 
 const paraMil = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-detail: (req,res) => {
-    const {id} = req.params;
-
-    const produto = Produtos.findOne(id);
-
-    res.render('details', {produto});
-}
 const ProdutosController = {
     view: (req, res) => {
         return res.render('pagProduto')
     },
+
+    detail: (req, res) => {
+		const { id } = req.params;
+		const product = Produto.findOne(id)
+
+		res.render('/details', { product});
+	},
 
     categoria: (req, res) => {
         let produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
