@@ -1,0 +1,159 @@
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+main h1{
+  padding-left: 30%;
+  margin-top: 20px;
+
+}
+.produto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  padding: 10px;
+}
+
+.produto img{
+  height: 30vw;
+}
+
+p1{
+  color: #E74C3C;
+}
+
+#blocoDeValores{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+
+}
+#compras{
+  display: flex;
+  flex-direction: column;
+}
+
+#comprar{
+  text-decoration: none;
+  background-color: #E74C3C;
+  color: black;
+  border: 1px black solid;
+  padding: 10px;
+  border-radius: 18px;
+
+}
+
+#carrinho{
+  text-decoration: none;
+  color: black;
+  border: 1px black solid;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+
+.descricao{
+  padding-left: 15%;
+  margin-top: 100px;
+  color: blue;
+}
+
+.sobreOProduto{
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 5px;
+}
+
+.footer1 {
+  margin-top: 50px;
+  background-color: #E74C3C;
+  width: 1200px;
+  max-width: 100%;
+  border-radius: 35px;
+  margin-left: 80px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.texto  {
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: white;
+}
+
+.texto p {
+  font-size: 10px;
+}
+
+.footer1 input{
+  margin: 10px;
+  margin-right: 50px;
+  width: 250px;
+  padding: 4px;
+  border-radius: 30px;
+  border: none;
+}
+
+.footer1 button {
+  margin: 10px;
+  width: 80px;
+  padding: 4px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3498DB;
+  color: white;
+  font-weight: bold;
+}
+
+.footer1 button:hover {
+  transition: 0.4s;
+  background-color: white;
+  color: black;
+}
+
+.footer nav {
+  color: #E74C3C;
+  margin-top: 10px;
+  margin-left: 80px;
+  padding: 20px;
+  text-align: center ;
+  display: flex;
+  flex-direction: row;
+}
+.footer nav li {
+  margin-left: 80px;
+  list-style-type: none;
+}
+
+.footer nav li img {
+  max-width: 20px;
+}
+
+.footer nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer nav li a:hover {
+  transition: 0.4s;
+  color: #3498DB;
+  
+}
+
+.footer nav img {
+  max-width: 150px;
+ 
+}
+
