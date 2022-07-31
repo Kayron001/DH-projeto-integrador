@@ -5,13 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Categoria | Desapegados.com</title>
+    <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+    <link rel="stylesheet" href="/stylesheets/pagCategoria.css">
 </head>
 
 <body>
     <header>
         <%- include('./partials/header') %>
     </header>
+    <div class="col-12 col-sm-6 col-lg-3">
+        <% produtos.forEach(function(produtos){
+            if (produtos.categoria == categoria){
+                let preco = (produtos.preco).toFixed(2).replace('.',',')
+                let finalPrice = (produtos.preco * (1 - produtos.desconto)).toFixed(2).replace('.',',') %>
+                <div class="caixa">
+                    <span href="<%= produtos.id %>">
+                            <img class="img-produto" src="/images/produtos/<%= produtos.src %>" alt="imagem do produto">
+                            <% if(produtos.desconto> 0){ %>
+                                <p class="desconto">
+                                    De R$ <%= paraMil(preco) %>
+                                </p>
+                                <span>
+                                    <%= 100 * produtos.desconto %>% OFF
+                                </span>
+                                <p class="novo-preco">
+                                    por R$ <%= paraMil(finalPrice) %>
+                                </p>
+                            <% } else { %>
+                                <br>
+                                <br>
+                                <br>
+                                <p class="novo-preco">
+                                    R$ <%= paraMil(finalPrice) %>
+                                </p>
+                            <% }%>
+                            <p class="produto-nome">
+                                <%= produtos.nome %>
+                            </p>
+                        <% }%>
+                    </span>
+                </div>
+        <% }) %>
+    </div>
 </body>
 <footer>
     <%- include('./partials/footer') %>
