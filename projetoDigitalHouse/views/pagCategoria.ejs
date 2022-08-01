@@ -14,7 +14,7 @@
     <header>
         <%- include('./partials/header') %>
     </header>
-    <div class="col-12 col-sm-6 col-lg-3">
+    <div>
         <% produtos.forEach(function(produtos){
             if (produtos.categoria == categoria){
                 let preco = (produtos.preco).toFixed(2).replace('.',',')
