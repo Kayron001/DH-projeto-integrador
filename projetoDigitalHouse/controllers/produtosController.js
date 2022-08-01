@@ -28,11 +28,24 @@ const ProdutosController = {
         res.redirect('/');
     },
 
+    detalhe: (req, res) => {
+        let id = req.params.id
+        let produtoid = produtos.find(produto => produto.id == id)
+        res.render('pagDetaProduto', {
+            produtoid,
+            paraMil
+        })
+    },
+
     categoria: (req, res) => {
         let categoria = req.params.categoria
         let produto = produtos.find(produto => produto.categoria == categoria)
 
-        res.render('pagCategoria', { categoria, produtos, produto, paraMil })
+        res.render('pagCategoria', {
+            categoria,
+            produtos,
+            paraMil
+        })
     }
 }
 

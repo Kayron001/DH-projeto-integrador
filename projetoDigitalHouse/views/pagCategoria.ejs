@@ -18,7 +18,7 @@
         <% produtos.forEach(function(produtos){
             if (produtos.categoria == categoria){
                 let preco = (produtos.preco).toFixed(2).replace('.',',')
-                let finalPrice = (produtos.preco * (1 - produtos.desconto)).toFixed(2).replace('.',',') %>
+                let precoFinal = (produtos.preco * (1 - produtos.desconto)).toFixed(2).replace('.',',') %>
                 <div class="caixa">
                     <span href="<%= produtos.id %>">
                             <img class="img-produto" src="/images/produtos/<%= produtos.src %>" alt="imagem do produto">
@@ -30,14 +30,14 @@
                                     <%= 100 * produtos.desconto %>% OFF
                                 </span>
                                 <p class="novo-preco">
-                                    por R$ <%= paraMil(finalPrice) %>
+                                    por R$ <%= paraMil(precoFinal) %>
                                 </p>
                             <% } else { %>
                                 <br>
                                 <br>
                                 <br>
                                 <p class="novo-preco">
-                                    R$ <%= paraMil(finalPrice) %>
+                                    R$ <%= paraMil(precoFinal) %>
                                 </p>
                             <% }%>
                             <p class="produto-nome">
