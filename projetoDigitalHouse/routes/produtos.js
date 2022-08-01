@@ -19,5 +19,8 @@ router.post('/', ProdutosController.novoProduto);
 router.get('/item/editar/:id', ProdutosController.editar)
 router.patch('/item/editar/:id', ProdutosController.atualizar)
 
+// deletar produto
+router.delete('/item/deletar/:id', ProdutosController.apagar)
+
 
 module.exports = router;

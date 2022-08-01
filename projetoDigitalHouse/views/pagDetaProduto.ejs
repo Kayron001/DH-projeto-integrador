@@ -32,8 +32,8 @@
                     <h2><%= produtoid.name %></h2>
                 <%
                     let precoNumber = Number(produtoid.preco)
-                    let precoFinal=(precoNumber * (1 - produtoid.desconto)).toFixed(2).replace('.',',')
-                    let preco = (precoNumber).toFixed(2).replace('.',',')
+                    let precoFinal = (precoNumber * (1 - produtoid.desconto)).toFixed(2).replace('.',',')
+                    let preco = precoNumber.toFixed(2).replace('.',',')
                     if(produtoid.desconto> 0) { %>
                         <p>
                             <span class="preco-antes">R$ <%= paraMil(preco) %></span> /
@@ -55,7 +55,7 @@
                 </div>
                     <a class="botao-comprar" href="">COMPRAR AGORA</a>
                     <hr>
-                       <form action="/products/delete/<%= produtoid.id %>?_method=DELETE" method="POST">
+                       <form action="/produtos/item/deletar/<%= produtoid.id %>?_method=DELETE" method="POST">
                         <a class="botao-editar" href="/produtos/item/editar/<%= produtoid.id %>">EDITAR PRODUTO</a>
                         <button class="botao-apagar" type="submit" class="action-button delete">APAGAR</button>
                     </form>

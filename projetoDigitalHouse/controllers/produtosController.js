@@ -52,7 +52,7 @@ const ProdutosController = {
             return produto
         })
         fs.writeFileSync(produtosArquivoBase, JSON.stringify(novoProduto, null, ' '));
-        res.render('index')
+        res.redirect('/')
     },
 
     detalhe: (req, res) => {
@@ -62,6 +62,13 @@ const ProdutosController = {
             produtoid,
             paraMil
         })
+    },
+
+    apagar: (req, res) => {
+        let id = req.params.id
+        let apagarProduto = produtos.filter(produto => produto.id != id)
+        fs.writeFileSync(produtosArquivoBase, JSON.stringify(apagarProduto, null, ' '))
+        res.redirect('/')
     },
 
     categoria: (req, res) => {
