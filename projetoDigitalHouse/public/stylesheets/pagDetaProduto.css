@@ -34,7 +34,7 @@
 
 .caixa-preco-opcoes {
     width: 70%;
-    padding: 10% 2% 15% 5%;
+    padding: 5% 2% 7% 5%;
     border-right: 2px solid black;
 }
 
@@ -64,12 +64,17 @@
     margin: 0;
 }
 
-.vantagens p {
-    display: flex;
+.vantagens {
+    margin-bottom: 2%;
 }
 
-.vantagens p img {
+.vantagens div img {
     margin-right: 2%;
+}
+
+.vantagens-caixa{
+    display: flex;
+    align-items: center;
 }
 
 .botao-comprar {
@@ -105,3 +110,4 @@ hr {
     border-radius: 5px;
     background-color: red;
 }
+

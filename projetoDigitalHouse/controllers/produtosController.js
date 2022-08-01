@@ -20,8 +20,9 @@ const ProdutosController = {
         let novoProduto = {
             id: produtos[produtos.length - 1].id + 1,
             desconto: 0,
+            preco: Number(req.body.preco),
             ...req.body,
-            image: 'default-image.png'
+            src: 'default-image.png'
         };
         produtos.push(novoProduto)
         fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '));

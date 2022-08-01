@@ -31,8 +31,9 @@
                 <article>
                     <h2><%= produtoid.name %></h2>
                 <%
-                    let precoFinal=(produtoid.preco * (1 - produtoid.desconto)).toFixed(2).replace('.',',')
-                    let preco = (produtoid.preco).toFixed(2).replace('.',',')
+                    let precoNumber = Number(produtoid.preco)
+                    let precoFinal=(precoNumber * (1 - produtoid.desconto)).toFixed(2).replace('.',',')
+                    let preco = (precoNumber).toFixed(2).replace('.',',')
                     if(produtoid.desconto> 0) { %>
                         <p>
                             <span class="preco-antes">R$ <%= paraMil(preco) %></span> /
@@ -43,8 +44,14 @@
                         <p class="preco-depois">R$ <%= paraMil(precoFinal) %></p>
                     <% } %>
                 <div class="vantagens">
-                    <p><img class="icone" src="/images/pagDetaProduto/credit-card.png" alt="Cartão de Crédito">Pague em até 12 parcelas sem juros</p>
-                    <p><img class="icone" src="/images/pagDetaProduto/delivery-van.png" alt="Carro de Entrega">Retire gratuitamente nas instalações do vendedor</p>
+                    <div class="vantagens-caixa">
+                        <img class="icone" src="/images/pagDetaProduto/credit-card.png" alt="Cartão de Crédito">
+                        <p>Pague em até 12 parcelas sem juros</p>
+                    </div>
+                    <div class="vantagens-caixa">
+                        <img class="icone" src="/images/pagDetaProduto/delivery-van.png" alt="Carro de Entrega">
+                        <p>Retire gratuitamente nas instalações do vendedor</p>
+                    </div>
                 </div>
                     <a class="botao-comprar" href="">COMPRAR AGORA</a>
                     <hr>
