@@ -17,7 +17,7 @@ header div {
   display:flex;
   width: 100%;
   background-color: rgb(35, 149, 255);
-  height: 50px;
+  height: 80px;
 flex-direction: row;
 justify-content: space-between;
 }
