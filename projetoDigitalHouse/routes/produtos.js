@@ -6,12 +6,12 @@ const ProdutosController = require('../controllers/ProductsController');
 
 router.get('/', ProdutosController.view)
 router.get('/categoria', ProdutosController.categoria)
-router.get('/create/', productsController.create);
-router.post('/create/', upload.single('image'), productsController.store);
-router.get('/detail/:id', productsController.detail);
-router.get('/edit/:id', productsController.edit); 
-router.put('/edit/:id', productsController.update);
-router.delete('/delete/:id', productsController.destroy);
+router.get('/create/', ProdutosController.create);
+router.post('/create/', upload.single('image'), ProdutosController.store);
+router.get('/detail/:id', ProdutosController.detail);
+router.get('/edit/:id', ProdutosController.edit); 
+router.put('/edit/:id', ProdutosController.update);
+router.delete('/delete/:id',ProdutosController.destroy);
 
 
 module.exports = router;
