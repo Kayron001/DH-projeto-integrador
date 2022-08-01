@@ -412,5 +412,14 @@
   "descricao": "O Sofá dois lugares em Veludo preto Argos Gladiador é perfeito para dar um toque especial à sua sala de estar. Com design moderno e com linhas retas, ele se encaixa perfeitamente na decoração do seu ambiente. Sua estrutura é produzida de madeira Eucalipto reflorestado, tratada e com controle de umidade, com tubo de ferro retrátil, facilitando no momento de expandir seu tamanho.",
   "categoria": "sofas",
   "src": "sofas/sofa6.png"
+ },
+ {
+  "desconto": 0,
+  "id": 47,
+  "nome": "",
+  "preco": "77777",
+  "categoria": "outros",
+  "descricao": "asfasdfs",
+  "src": "default-image.png"
  }
 ]

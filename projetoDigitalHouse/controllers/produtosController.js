@@ -40,6 +40,7 @@ const ProdutosController = {
         let editar = produtos.find(produto => produto.id == id)
 
         editar = {
+            desconto: 0,
             id: editar.id,
             ...req.body,
             src: editar.src
