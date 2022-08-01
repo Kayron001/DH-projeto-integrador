@@ -29,6 +29,32 @@ const ProdutosController = {
         res.redirect('/');
     },
 
+    editar: (req, res) => {
+        let id = req.params.id
+        let editar = produtos.find(produto => produto.id == id)
+        res.render('pagEditProduto', { editar })
+    },
+
+    atualizar: (req, res) => {
+        let id = req.params.id
+        let editar = produtos.find(produto => produto.id == id)
+
+        editar = {
+            id: editar.id,
+            ...req.body,
+            src: editar.src
+        }
+
+        let novoProduto = produtos.map(produto => {
+            if (produto.id == editar.id) {
+                return produto = { ...editar }
+            }
+            return produto
+        })
+        fs.writeFileSync(produtosArquivoBase, JSON.stringify(novoProduto, null, ' '));
+        res.render('index')
+    },
+
     detalhe: (req, res) => {
         let id = req.params.id
         let produtoid = produtos.find(produto => produto.id == id)

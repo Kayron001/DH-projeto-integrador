@@ -4,10 +4,20 @@ const router = express.Router();
 const ProdutosController = require('../controllers/ProdutosController')
 
 router.get('/', ProdutosController.view)
+
+// pagina categoria
 router.get('/categoria/:categoria', ProdutosController.categoria)
+
+// detalhe produto
 router.get('/item/:id', ProdutosController.detalhe)
+
+// criar produto
 router.get('/cadastrodeproduto', ProdutosController.cadProduto)
 router.post('/', ProdutosController.novoProduto); 
+
+// editar produto
+router.get('/item/editar/:id', ProdutosController.editar)
+router.patch('/item/editar/:id', ProdutosController.atualizar)
 
 
 module.exports = router;
