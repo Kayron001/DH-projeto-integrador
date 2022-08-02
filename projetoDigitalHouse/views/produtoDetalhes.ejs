@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <% include('partials/header') %> 
 
 
@@ -43,3 +44,61 @@
 
 
 <% include('partials/footer') %> 
+=======
+ <!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <link rel="stylesheet" href="/public/stylesheets/produtoDetalhes.css">
+    <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+    <title><% - { title: produto.nome } %></title>
+</head>
+ <body>
+  <header>
+    <%- include('./partials/header') %>
+</header>
+
+	<div class="container-produto">
+				<h2 class="produto-title">Detalhe do produto: <%= produto.nome %></h2>
+			</div>
+		
+		<div class="produto-detalhe">
+			
+					<img src="../public/images/produtos/<%= produto.src %> " alt="produto image" class="produto-detail-img">
+					<p class="product-detail-description">
+						<%= produto.descricao %>
+					</p>
+				</div>
+				
+					<div>
+						<h2 class="product-detail-title"><%= produto.nome %></h2>
+					</div>
+							<p class="produto-detalhe-preco pequeno">
+								<span>$<%=(produto.preco) %></span>
+								/
+								<b><%= produto.desconto %>% OFF</b>
+							</p>
+							<p class="produto-detalhe-preco">
+								$<%= (produto.preco - (produto.desconto / 100 * produto.preco)) %> 
+							</p>
+
+						<ul class="lista de acao">
+							<li>
+								<i class="credit-card"></i>
+								<p>Pagar em 12 parcelas sem juros</p>
+							</li>
+							<li>
+								<i class="store"></i>
+								<p>Retirada gratuita nas instalações do vendedor</p>
+							</li>
+						</ul>
+
+						<a href="/checkout" class="buy">COMPRAR AGORA</a>
+				
+
+
+  <footer>
+    <%- include('./partials/footer') %>
+</footer>
+ </body>
+ </html>
+>>>>>>> danilo
