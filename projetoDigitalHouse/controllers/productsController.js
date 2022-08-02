@@ -1,7 +1,8 @@
 const fs = require('fs')
-const path = require('path')
+const path = require('path');
+const Produto = require('../models/produto');
 
-const produtosArquivoBase = path.join(__dirname, '../public/data/produtos/produtos.json')
+const produtosArquivoBase = path.join(__dirname, '../data/produtos/produtos.json')
 const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
 
 const paraMil = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
@@ -11,9 +12,9 @@ const ProdutosController = {
     },
     detail: (req, res) => {
 		const { id } = req.params;
-		const produto = produtos.findOne(id)
+		const produto = Produto.findOne(id)
 
-		res.render('detail', { produto });
+		res.render('produtoDetalhes', { produto });
 	},
     categoria: (req, res) => {
         let produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))

@@ -29,3 +29,11 @@ body {
   justify-content: space-around;
 }
 
+.produto-detail-img{
+display: flex;
+align-items: center;
+align-content: center;
+
+
+
+}

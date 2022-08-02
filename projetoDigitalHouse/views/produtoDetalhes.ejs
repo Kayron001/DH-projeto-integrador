@@ -16,7 +16,7 @@
 		
 		<div class="produto-detalhe">
 			
-					<img src="/images/products/<%= produto.SRC %> " alt="produto image" class="produto-detail-img">
+					<img src="../public/images/produtos/<%= produto.src %> " alt="produto image" class="produto-detail-img">
 					<p class="product-detail-description">
 						<%= produto.descricao %>
 					</p>
@@ -26,12 +26,12 @@
 						<h2 class="product-detail-title"><%= produto.nome %></h2>
 					</div>
 							<p class="produto-detalhe-preco pequeno">
-								<span>$<%= toThousand(produto.preco) %></span>
+								<span>$<%=(produto.preco) %></span>
 								/
 								<b><%= produto.desconto %>% OFF</b>
 							</p>
 							<p class="produto-detalhe-preco">
-								$<%= toThousand(produto.preco - (produto.desconto / 100 * produto.preco)) %> 
+								$<%= (produto.preco - (produto.desconto / 100 * produto.preco)) %> 
 							</p>
 
 						<ul class="lista de acao">
