@@ -9,8 +9,12 @@ const ProdutosController = {
     view: (req, res) => {
         return res.render('pagProduto')
     },
+    detail: (req, res) => {
+		const { id } = req.params;
+		const produto = produtos.findOne(id)
 
-   
+		res.render('detail', { produto });
+	},
     categoria: (req, res) => {
         let produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
         let categoria = req.params.categoria
