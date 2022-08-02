@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nome": "Cama de casal",
+        "preco": "1.299,89",
+        "desconto": 0.3,
+        "descricao": "Produto desenvolvido com madeira de Pinus de reflorestamento 100% maciça, ecologicamente correta. Esse produto de alta resistência e grande performance foi desenvolvido para o cliente que procura uma cama que suporte 200kg",
+        "src": "/images/produtos/camas/produto2.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Cama Casal Box Com Sapateira Embutida",
+        "preco": "899,90",
+        "desconto": 0,
+        "descricao": "Com linhas retas e design minimalista, a Cama Casal Box Com Sapateira Embutida é a melhor opção para trazer conforto e elegância ao seu quarto. Produzida em MDF, com estrado de madeira reflorestada garante durabilidade e resistência ao móvel. Acabamento resistente com impressão UV e verniz de alta duração.",
+        "src": "/images/produtos/camas/cama1.png"
+    },
+    {
+        "id": 3,
+        "nome": "Cama Mantra com 4 Gavetões",
+        "preco": "1249,49",
+        "desconto": 0.15,
+        "descricao": "Repare bem nesta cama Kendra: é perfeita para acomodar o seu colchão e garantir noites de sono confortáveis e reconfortantes e para além disso ela ainda conta com gavetas inferiores onde poderá arrumar cobertores, edredões, roupas de cama, sapatos ou o que mais desejar.",
+        "src": "/images/produtos/camas/cama2.png"
+    },
+    {
+        "id": 4,
+        "nome": "Cama Casal com Gavetão Auxiliar Frontal",
+        "preco": "997,97",
+        "desconto": 0,
+        "descricao": "Cama Casal com Gavetão Frontal Auxiliar. Produto fabricado em MDF. Gavetão com corrediças telescópicas, perfil puxador em alumínio, acompanha rodízios. Muito útil para guardar roupas de cama, colchas, travesseiros. Ótimo custo benefício em relação a utilidade que o produto oferece, produto compacto que permite otimização do espaço em seu dormitório. Revestimento externo, pintura impressão com vernizes UV em alto relevo. Beleza e sofisticação.",
+        "src": "/images/produtos/camas/cama3.png"
+    },
+    {
+        "id": 5,
+        "nome": "Cama de Solteiro Priscila Wood",
+        "preco": "598,40",
+        "desconto": 0,
+        "descricao": "Quando procuramos por uma cama, buscamos conforto e durabilidade acima de tudo. Na cama você encontra essas duas características. Seus detalhes são um diferencial do modelo, que além de bonito é resistente e possui uma vida útil prolongada.",
+        "src": "/images/produtos/camas/cama4.png"
+    },
+    {
+        "id": 6,
+        "nome": "Cama de Casal Carolina Puro Luxo",
+        "preco": "1.897,97",
+        "desconto": 0.2,
+        "descricao": "A Cama Carolina é perfeita para quem quer aliar praticidade, bom gosto e estilo. Com as suas linhas retas e a sua cor clássica é muito harmoniosa, sendo fácil de enquadrar em qualquer ambiente.",
+        "src": "/images/produtos/camas/cama5.png"
+    },
+    {
+        "id": 7,
+        "nome": "Cama Manchester com Moldura Estofada",
+        "preco": "1.689,89",
+        "desconto": 0.1,
+        "descricao": "Transforme o seu quarto num local que seja muito mais do que apenas para descansar. Transforme-o também num espaço de bom gosto, requinte, aconchego e relaxamento com a Cama Manchester. Um móvel com presença e que vai fazer do seu quarto uma divisão onde lhe apeteça estar!",
+        "src": "/images/produtos/camas/cama6.png"
+    },
+    {
+        "id": 8,
+        "nome": "Cama solteiro 100% MDF Paris Francinni Grelhat",
+        "preco": "749,49",
+        "desconto": 0,
+        "descricao": "Para você que quer dar um diferencial e mudar visual do cantinho mais aconchegante de sua casa e, ao mesmo tempo, ter o melhor para suas noites de sono, a Cama solteiro 100% MDF Paris Francinni Grelhat é a escolha perfeita para compor o ambiente!",
+        "src": "/images/produtos/camas/cama7.png"
+    }
+]
