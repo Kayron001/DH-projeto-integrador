@@ -29,6 +29,7 @@ app.use('/login/cadastro', loginRouter);
 app.use('/checkout', checkoutRouter);
 app.use('/produtos', produtosRouter);
 app.use('/produtos/categoria', produtosRouter);
+app.use('/produtos/detail', produtosRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
