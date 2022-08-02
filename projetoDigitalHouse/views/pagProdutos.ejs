@@ -17,7 +17,7 @@
             let precoFinal = (precoNumber * (1 - produtos.desconto)).toFixed(2).replace('.',',')
             let preco = precoNumber.toFixed(2).replace('.',',')%>
                 <div class="caixa">
-                    <a href="/produtos/item/<%= produtos.id %>">
+                    <a class="caixa-produtos" href="/produtos/item/<%= produtos.id %>">
                         <span href="<%= produtos.id %>">
                             <img class="img-produto" src="/images/produtos/<%= produtos.src %>" alt="imagem do produto">
                             <% if(produtos.desconto> 0){ %>

@@ -7,11 +7,6 @@ const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
 const paraMil = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 const ProdutosController = {
-    view: (req, res) => {
-        return res.render('pagProduto')
-    },
-
-
     cadProduto: (req, res) => {
         return res.render('pagCadProduto')
     },
@@ -78,6 +73,16 @@ const ProdutosController = {
 
         res.render('pagCategoria', {
             categoria,
+            produtos,
+            paraMil
+        })
+    },
+
+    todosProdutos: (req, res) => {
+        let id = req.params.id
+        let produto = produtos.find(produtos => produtos.id == id)
+        return res.render('pagProdutos',{
+            id,
             produtos,
             paraMil
         })

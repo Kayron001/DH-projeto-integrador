@@ -3,7 +3,10 @@ const router = express.Router();
 
 const ProdutosController = require('../controllers/ProdutosController')
 
-router.get('/', ProdutosController.view)
+router.get('/', ProdutosController.todosProdutos)
+
+// pagina produtos
+router.get('/todos', ProdutosController.todosProdutos)
 
 // pagina categoria
 router.get('/categoria/:categoria', ProdutosController.categoria)
