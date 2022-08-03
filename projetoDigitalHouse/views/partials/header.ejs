@@ -1,6 +1,10 @@
 <!-- Barra de logo com menu -->
 <div class="barra-logo-menu">
-    <a href="/"><img src="/images/home/logo-D.png" alt="" class="logo"></a>
+    <div>
+        <a href="/"><img src="/images/home/logo-D.png" alt="" class="logo"></a>
+    </div>
+    <a class="produto-venda" href="/produtos/todos">Todos os produtos</a>
+    <a class="produto-venda" href="/produtos/cadastrodeproduto">Precisa vender algo?</a>
     <nav class="menu-navegacao">
         <span>Siga nossas redes:</span>
         <a href="">Facebook</a>
@@ -40,7 +44,13 @@
         align-items: center;
     }
 
-    .menu-navegacao a {
+    .produto-venda {
+        margin-left: -13%;
+    }
+
+    .menu-navegacao a,
+    .produto-venda {
+        font-size: 1.2rem;
         color: black;
     }
 

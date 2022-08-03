@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>Categoria | Desapegados.com</title>
+    <title>Todos os Produtos | Desapegados.com</title>
     <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
     <link rel="stylesheet" href="/stylesheets/pagCategoria.css">
 </head>
@@ -13,11 +13,12 @@
     </header>
     <div>
         <% produtos.forEach(function(produtos){
-            if (produtos.categoria == categoria){
-                let preco = (produtos.preco).toFixed(2).replace('.',',')
-                let precoFinal = (produtos.preco * (1 - produtos.desconto)).toFixed(2).replace('.',',') %>
+            let precoNumber = Number(produtos.preco)
+            let precoFinal = (precoNumber * (1 - produtos.desconto)).toFixed(2).replace('.',',')
+            let preco = precoNumber.toFixed(2).replace('.',',')%>
                 <div class="caixa">
-                    <span href="<%= produtos.id %>">
+                    <a class="caixa-produtos" href="/produtos/item/<%= produtos.id %>">
+                        <span href="<%= produtos.id %>">
                             <img class="img-produto" src="/images/produtos/<%= produtos.src %>" alt="imagem do produto">
                             <% if(produtos.desconto> 0){ %>
                                 <p class="desconto">
@@ -40,8 +41,8 @@
                             <p class="produto-nome">
                                 <%= produtos.nome %>
                             </p>
-                        <% }%>
                     </span>
+                    </a>
                 </div>
         <% }) %>
     </div>

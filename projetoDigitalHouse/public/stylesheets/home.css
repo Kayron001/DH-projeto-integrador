@@ -72,11 +72,9 @@ body {
     border-radius: 5px;
     cursor: pointer;
     padding: 4px;
-    max-width: 200px;
-    height: 300px;
-    box-sizing: content-box;
     box-shadow: 0px 4px 10px 0 black;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     border: solid 1px black;
 }
 
@@ -118,7 +116,7 @@ body {
     text-align: center;
 }
 
-.caixa-categoria a{
+.caixa-categoria a {
     text-decoration: none;
 }
 
@@ -196,6 +194,7 @@ body {
     width: 200px;
     height: 200px;
 }
+
 .descricao-produto-segundo-bloco {
     font-size: 1.1em;
     margin: 15px 1.5% 5px 0px;
@@ -258,8 +257,9 @@ p.preco-produto-depois {
     margin: 0px 15px;
 }
 
-.carrinho-icon-add s{
-    width: 20%;
+.carrinho-icon-add {
+    width: 30px;
+    height: 30px;
     margin-left: 78%;
     margin-top: -15%;
 }
