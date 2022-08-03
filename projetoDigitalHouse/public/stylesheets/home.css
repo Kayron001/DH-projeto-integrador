@@ -3,61 +3,6 @@ body {
     background-color: whitesmoke;
 }
 
-.logo {
-    height: 50px;
-    width: 100px;
-    margin-left: 8%;
-}
-
-.barra-logo-menu {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    background-color: rgb(35, 149, 255);
-    height: 50px;
-    align-items: center;
-}
-
-.menu-navegacao a{
-    color: black;
-}
-
-.carrinho-icon-add{
-    width: 20%;
-    margin-left: 78%;
-    margin-top: -15%;
-}
-
-.carrinho-icon {
-    margin-right: 10px;
-    height: 40px;
-    width: 60px;
-}
-
-.usuario-icon {
-    margin-right: 15px;
-    height: 40px;
-    width: 40px;
-}
-
-.lupa-icon {
-    height: 15px;
-    width: 30px;
-}
-
-.barra-pesquisa {
-    margin: 0 10px;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.div-barra-pesquisa {
-    margin: 2% 0px 0px 0%;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
 .banner-promocao {
     border-radius: 10px;
     box-shadow: 0px 4px 10px 0 black;
@@ -127,11 +72,9 @@ body {
     border-radius: 5px;
     cursor: pointer;
     padding: 4px;
-    max-width: 200px;
-    height: 300px;
-    box-sizing: content-box;
     box-shadow: 0px 4px 10px 0 black;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     border: solid 1px black;
 }
 
@@ -173,7 +116,7 @@ body {
     text-align: center;
 }
 
-.caixa-categoria a{
+.caixa-categoria a {
     text-decoration: none;
 }
 
@@ -251,6 +194,7 @@ body {
     width: 200px;
     height: 200px;
 }
+
 .descricao-produto-segundo-bloco {
     font-size: 1.1em;
     margin: 15px 1.5% 5px 0px;
@@ -313,47 +257,9 @@ p.preco-produto-depois {
     margin: 0px 15px;
 }
 
-.footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: whitesmoke;
-}
-
-.logo-footer {
-    margin: 12% 2% 1% 7%;
-    width: 80%;
-    height: 60%;
-}
-
-.rede-sociais-footer {
-    margin: 5% 15% 0 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.redesocial-icon {
-    cursor: pointer;
-    margin: 8% 3%;
-    width: 17%;
-    height: 45%;
-}
-
-.opcao-titulo {
-    text-decoration: underline;
-}
-
-.opcao-footer {
-    cursor: pointer;
-}
-
-.butao-contato-footer {
-    cursor: pointer;
-    color: whitesmoke;
-    background-color: rgb(35, 149, 255);
-    border: 1px solid gray;
-    box-shadow: 0px 4px 10px 0 black;
-    border-radius: 5px;
-    padding: 2% 10%;
-    font-size: 1.5em;
+.carrinho-icon-add {
+    width: 30px;
+    height: 30px;
+    margin-left: 78%;
+    margin-top: -15%;
 }

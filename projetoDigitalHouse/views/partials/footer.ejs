@@ -4,23 +4,23 @@
     </div>
     <div class="opcoes-footer">
         <p class="opcao-titulo"><strong>Início</strong></p>
-        <p class="opcao-footer">Home</p>
-        <p class="opcao-footer">Categorias</p>
-        <p class="opcao-footer">Cadastro de usuário</p>
+        <a href="/" class="link"><p class="opcao-footer">Home</p></a>
+        <a href="" class="link"><p class="opcao-footer">Categorias</p></a>
+        <a href="/login/cadastro" class="link"><p class="opcao-footer">Cadastro de usuário</p></a>
     </div>
     <div class="opcoes-footer">
         <p class="opcao-titulo"><strong>Sobre-nós</strong></p>
-        <p class="opcao-footer">Missão</p>
-        <p class="opcao-footer">Quem somos</p>
-        <p class="opcao-footer">Blog</p>
-        <p class="opcao-footer">Contato</p>
+        <a href="" class="link"><p class="opcao-footer">Blog</p></a>
+        <a href="" class="link"><p class="opcao-footer">Missão</p></a>
+        <a href="" class="link"><p class="opcao-footer">Contato</p></a>
+        <a href="" class="link"><p class="opcao-footer">Quem somos</p></a>
     </div>
     <div class="opcoes-footer">
         <p class="opcao-titulo"><strong>Suporte</strong></p>
-        <p class="opcao-footer">FAQ</p>
-        <p class="opcao-footer">Telefones</p>
-        <p class="opcao-footer">Chat online</p>
-        <p class="opcao-footer">Reclame Aqui</p>
+        <a href="" class="link"><p class="opcao-footer">FAQ</p></a>
+        <a href="" class="link"><p class="opcao-footer">Telefones</p></a>
+        <a href="" class="link"><p class="opcao-footer">Chat online</p></a>
+        <a href="" class="link"><p class="opcao-footer">Reclame Aqui</p></a>
     </div>
     <div class="rede-sociais-footer">
         <span>
@@ -36,16 +36,21 @@
 </div>
 
 <style>
+
     .footer {
+        margin-top: 3%;
+        height: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         background-color: whitesmoke;
+        text-align: center;
     }
 
     .logo-footer {
-        margin: 12% 2% 1% 7%;
-        width: 80%;
-        height: 60%;
+        margin: 0% 2% 1% 7%;
+        width: 65%;
+        height: 90%;
+        padding: 0;
     }
 
     .rede-sociais-footer {
@@ -70,6 +75,11 @@
         cursor: pointer;
     }
 
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+
     .butao-contato-footer {
         cursor: pointer;
         color: whitesmoke;
@@ -77,7 +87,7 @@
         border: 1px solid gray;
         box-shadow: 0px 4px 10px 0 black;
         border-radius: 5px;
-        padding: 2% 10%;
+        padding: 2% 5%;
         font-size: 1.5em;
     }
 </style>

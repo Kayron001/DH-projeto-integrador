@@ -1,6 +1,10 @@
 <!-- Barra de logo com menu -->
 <div class="barra-logo-menu">
-    <a href="/"><img src="/images/home/logo.png" alt="" class="logo"></a>
+    <div>
+        <a href="/"><img src="/images/home/logo-D.png" alt="" class="logo"></a>
+    </div>
+    <a class="produto-venda" href="/produtos/todos">Todos os produtos</a>
+    <a class="produto-venda" href="/produtos/cadastrodeproduto">Precisa vender algo?</a>
     <nav class="menu-navegacao">
         <span>Siga nossas redes:</span>
         <a href="">Facebook</a>
@@ -26,9 +30,9 @@
     }
 
     .logo {
-        height: 50px;
-        width: 100px;
-        margin-left: 8%;
+        height: 55px;
+        width: 55px;
+        margin-left: 20%;
     }
 
     .barra-logo-menu {
@@ -36,11 +40,17 @@
         width: 100%;
         justify-content: space-between;
         background-color: rgb(35, 149, 255);
-        height: 50px;
+        height: 52px;
         align-items: center;
     }
 
-    .menu-navegacao a {
+    .produto-venda {
+        margin-left: -13%;
+    }
+
+    .menu-navegacao a,
+    .produto-venda {
+        font-size: 1.2rem;
         color: black;
     }
 
@@ -52,14 +62,14 @@
 
     .carrinho-icon {
         margin-right: 10px;
-        height: 40px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
     }
 
     .usuario-icon {
         margin-right: 15px;
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
     }
 
     .lupa-icon {
