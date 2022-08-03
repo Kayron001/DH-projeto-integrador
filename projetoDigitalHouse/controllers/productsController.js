@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path');
 const Produto = require('../models/produto');
 
-const produtosArquivoBase = path.join(__dirname, '../data/produtos.json')
+const produtosArquivoBase = path.join(__dirname, '../data/produtos/produtos.json')
 const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
 
 const paraMil = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
