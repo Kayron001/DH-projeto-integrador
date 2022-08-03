@@ -68,9 +68,10 @@ input[type=number] {
 
 .botao-salvar button{
     border-radius: 5px;
-    font-size: 1.3rem;
-    margin-left: 83%;
+    font-size: 1.2rem;
+    margin-left: 80%;
     margin-bottom: 15px;
+    width: 20%;
 }
 
 .botao-salvar button:hover{

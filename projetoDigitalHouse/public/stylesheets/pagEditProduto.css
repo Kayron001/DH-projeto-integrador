@@ -24,7 +24,7 @@ h2 {
 }
 
 form{
-    margin-bottom: -4.7%;
+    margin-bottom: -4.9%;
 }
 
 .produto-detalhe {
@@ -91,7 +91,7 @@ input[type=number] {
     font-size: 1.3rem;
     margin-top: -10%;
     margin-bottom: 15px;
-    margin-left: 65%;
+    margin-left: 60%;
 }
 
 .botao-cancelar button:hover {
