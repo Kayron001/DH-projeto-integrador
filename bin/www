@@ -5,6 +5,7 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var app = require('../app');
 var debug = require('debug')('projetodigitalhouse:server');
 var http = require('http');
@@ -90,6 +91,8 @@ function onListening() {
   debug('Listening on ' + bind);
 }
 =======
+=======
+>>>>>>> e60a0614976d77724135debb1419c10c5ce5861d
  var app = require('../app');
  var debug = require('debug')('projetodigitalhouse:server');
  var http = require('http');
@@ -173,5 +176,9 @@ function onListening() {
      ? 'pipe ' + addr
      : 'port ' + addr.port;
    debug('Listening on ' + bind);
+<<<<<<< HEAD
  }
 >>>>>>> main
+=======
+ }
+>>>>>>> e60a0614976d77724135debb1419c10c5ce5861d
