@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="">
-                <form action="/produtos" method="POST">
+                <form action="/produtos" method="POST" enctype="multipart/form-data"> <!--adcionado enctype="multipart/form-data" -->
                     <div class="produto">
                         <div class="produto-detalhe nome">
                             <label for="nome">Nome do produto:</label>
@@ -46,6 +46,11 @@
                         <div class="produto-detalhe descricao">
                             <label for="descricao">Descrição:</label>
                             <p><textarea name="descricao"></textarea></p>
+                        </div>
+                        <div class="produto-detalhe Imagem ">
+                            <label class="produto-detalhe-img" for="image">Imagem do produto:</label>
+                            <br>
+                            <input type="file" name="image" id="image">
                         </div>
                         <div class="botao-salvar">
                             <button type="submit">Salvar produto</button>

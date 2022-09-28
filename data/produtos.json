@@ -180,15 +180,6 @@
   "src": "cama6.png"
  },
  {
-  "id": 21,
-  "nome": "Cama solteiro 100% MDF Paris Francinni",
-  "preco": 749,
-  "desconto": 0,
-  "descricao": "Para você que quer dar um diferencial e mudar visual do cantinho mais aconchegante de sua casa e, ao mesmo tempo, ter o melhor para suas noites de sono, a Cama solteiro 100% MDF Paris Francinni Grelhat é a escolha perfeita para compor o ambiente!",
-  "categoria": "camas",
-  "src": "cama7.png"
- },
- {
   "id": 22,
   "nome": "Guarda-Roupa Solteiro Retrô ",
   "preco": 1003,
@@ -412,5 +403,14 @@
   "descricao": "O Sofá dois lugares em Veludo preto Argos Gladiador é perfeito para dar um toque especial à sua sala de estar. Com design moderno e com linhas retas, ele se encaixa perfeitamente na decoração do seu ambiente. Sua estrutura é produzida de madeira Eucalipto reflorestado, tratada e com controle de umidade, com tubo de ferro retrátil, facilitando no momento de expandir seu tamanho.",
   "categoria": "sofas",
   "src": "sofa6.png"
+ },
+ {
+  "nome": "carro",
+  "preco": 1500,
+  "categoria": "outros",
+  "descricao": "carro semi novo",
+  "id": 47,
+  "desconto": 0,
+  "src": "1664327038371-carro.jpg"
  }
 ]
