@@ -11,6 +11,9 @@ var loginRouter = require('./routes/login');
 var checkoutRouter = require('./routes/checkout');
 var produtosRouter = require('./routes/produtos');
 
+const { cadProduto } = require('./controllers/produtosController'); //adicionado
+const upload = require('./middlewares/multer'); //adicionado
+
 var app = express();
 
 // view engine setup
@@ -28,6 +31,9 @@ app.use('/', indexRouter);
 app.use('/login', loginRouter);
 app.use('/checkout', checkoutRouter);
 app.use('/produtos', produtosRouter);
+
+app.use('/produtos',upload.single('image'), cadProduto);
+app.use('/uploads', upload.single('image'), cadProduto);// adicionado
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

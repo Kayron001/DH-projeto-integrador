@@ -6,29 +6,32 @@ const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
 
 const paraMil = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
+
 const ProdutosController = {
     cadProduto: (req, res) => {
         return res.render('pagCadProduto')
     },
+     
+novoProduto: (req, res) => {
+    let novoProduto = {
+        ...req.body,
+        id: produtos[produtos.length - 1].id + 1,
+        desconto: 0,
+        preco: Number(req.body.preco),
+       src : req.file.filename// trocado // src: 'default-image.png'
+    }
 
-    novoProduto: (req, res) => {
-        let novoProduto = {
-            id: produtos[produtos.length - 1].id + 1,
-            desconto: 0,
-            preco: Number(req.body.preco),
-            ...req.body,
-            src: 'default-image.png'
-        };
-        produtos.push(novoProduto)
-        fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '));
-        res.redirect('/');
-    },
+    produtos.push(novoProduto)
+    fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '))
+    res.redirect('/');
 
-    editar: (req, res) => {
-        let id = req.params.id
+},
+editar: (req, res) => {
+        let id = req.params.id;
         let editar = produtos.find(produto => produto.id == id)
-        res.render('pagEditProduto', { editar })
+        res.render('pagEditProduto', { editar });
     },
+    
 
     atualizar: (req, res) => {
         let id = req.params.id
@@ -47,8 +50,8 @@ const ProdutosController = {
             }
             return produto
         })
-        fs.writeFileSync(produtosArquivoBase, JSON.stringify(novoProduto, null, ' '));
-        res.redirect('/')
+        fs.writeFileSync(produtosArquivoBase, JSON.stringify(novoProduto, null, ' '))
+        res.redirect('/public/images/produtos',{produtosArquivoBase})
     },
 
     detalhe: (req, res) => {
@@ -86,7 +89,8 @@ const ProdutosController = {
             produtos,
             paraMil
         })
-    }
+    
 }
+    }
 
 module.exports = ProdutosController;
