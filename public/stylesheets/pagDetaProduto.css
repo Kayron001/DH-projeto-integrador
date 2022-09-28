@@ -34,7 +34,7 @@
 }
 
 .caixa-preco-opcoes {
-    width: 70%;
+    width: 80%;
     padding: 5% 2% 7% 5%;
     border-right: 2px solid black;
 }
@@ -97,7 +97,7 @@ hr {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    padding: 2% 3%;
+    padding: 7px 3%;
     border-radius: 5px;
     background-color: #EAC926;
 }
@@ -107,7 +107,7 @@ hr {
     font-size: 1.2rem;
     border: none;
     font-weight: bold;
-    padding: 2% 3%;
+    padding: 6px 3%;
     border-radius: 5px;
     background-color: red;
 }

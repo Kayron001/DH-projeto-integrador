@@ -11,27 +11,27 @@ const ProdutosController = {
     cadProduto: (req, res) => {
         return res.render('pagCadProduto')
     },
-     
-novoProduto: (req, res) => {
-    let novoProduto = {
-        ...req.body,
-        id: produtos[produtos.length - 1].id + 1,
-        desconto: 0,
-        preco: Number(req.body.preco),
-       src : req.file.filename// trocado // src: 'default-image.png'
-    }
 
-    produtos.push(novoProduto)
-    fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '))
-    res.redirect('/');
+    novoProduto: (req, res) => {
+        let novoProduto = {
+            ...req.body,
+            id: produtos[produtos.length - 1].id + 1,
+            desconto: 0,
+            preco: Number(req.body.preco),
+            src: req.file.filename// trocado // src: 'default-image.png'
+        }
 
-},
-editar: (req, res) => {
+        produtos.push(novoProduto)
+        fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '))
+        res.redirect('/');
+
+    },
+    editar: (req, res) => {
         let id = req.params.id;
         let editar = produtos.find(produto => produto.id == id)
         res.render('pagEditProduto', { editar });
     },
-    
+
 
     atualizar: (req, res) => {
         let id = req.params.id
@@ -51,7 +51,7 @@ editar: (req, res) => {
             return produto
         })
         fs.writeFileSync(produtosArquivoBase, JSON.stringify(novoProduto, null, ' '))
-        res.redirect('/public/images/produtos',{produtosArquivoBase})
+        res.redirect('/public/images/produtos', { produtosArquivoBase })
     },
 
     detalhe: (req, res) => {
@@ -84,13 +84,13 @@ editar: (req, res) => {
     todosProdutos: (req, res) => {
         let id = req.params.id
         let produto = produtos.find(produtos => produtos.id == id)
-        return res.render('pagProdutos',{
+        return res.render('pagProdutos', {
             id,
             produtos,
             paraMil
         })
-    
-}
+
     }
+}
 
 module.exports = ProdutosController;
