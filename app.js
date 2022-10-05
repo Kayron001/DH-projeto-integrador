@@ -11,6 +11,7 @@ var loginRouter = require('./routes/login');
 var checkoutRouter = require('./routes/checkout');
 var produtosRouter = require('./routes/produtos');
 
+
 const { cadProduto } = require('./controllers/produtosController'); //adicionado
 const upload = require('./middlewares/multer'); //adicionado
 
@@ -34,6 +35,8 @@ app.use('/produtos', produtosRouter);
 
 app.use('/produtos',upload.single('image'), cadProduto);
 app.use('/uploads', upload.single('image'), cadProduto);// adicionado
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

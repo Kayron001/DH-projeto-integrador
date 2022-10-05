@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const { Produto} = require ('../models')
 
 const produtosArquivoBase = path.join(__dirname, '../data/produtos.json')
 const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
@@ -15,14 +16,12 @@ const ProdutosController = {
 novoProduto: (req, res) => {
     let novoProduto = {
         ...req.body,
-        id: produtos[produtos.length - 1].id + 1,
         desconto: 0,
         preco: Number(req.body.preco),
-       src : req.file.filename// trocado // src: 'default-image.png'
+       src : req.file.filename
     }
 
-    produtos.push(novoProduto)
-    fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '))
+    Produto.create(novoProduto)
     res.redirect('/');
 
 },
@@ -90,7 +89,8 @@ editar: (req, res) => {
             paraMil
         })
     
-}
+},
+
     }
 
 module.exports = ProdutosController;
