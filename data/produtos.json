@@ -405,12 +405,12 @@
   "src": "sofa6.png"
  },
  {
-  "nome": "carro",
-  "preco": 1500,
+  "desconto": 0,
+  "id": 47,
+  "nome": "Carro",
+  "preco": "45000",
   "categoria": "outros",
   "descricao": "carro semi novo",
-  "id": 47,
-  "desconto": 0,
   "src": "1664327038371-carro.jpg"
  }
 ]

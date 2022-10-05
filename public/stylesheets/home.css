@@ -178,6 +178,7 @@ body {
 }
 
 .caixa-produto-descricao {
+    height: 300px;
     border-radius: 4px;
     cursor: pointer;
     background-color: rgb(152, 204, 253);
@@ -190,7 +191,7 @@ body {
 }
 
 .imagem-produto-bloco2 {
-    margin: 15px 5px 5px 10px;
+    margin: 15px 10px 5px 10px;
     width: 200px;
     height: 200px;
 }
