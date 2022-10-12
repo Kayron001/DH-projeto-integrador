@@ -412,5 +412,25 @@
   "categoria": "outros",
   "descricao": "carro semi novo",
   "src": "1664327038371-carro.jpg"
+ },
+ {
+  "desconto": 0,
+  "preco": null
+ },
+ {
+  "desconto": 0,
+  "preco": null
+ },
+ {
+  "desconto": 0,
+  "preco": null
+ },
+ {
+  "desconto": 0,
+  "preco": null
+ },
+ {
+  "desconto": 0,
+  "preco": null
  }
 ]

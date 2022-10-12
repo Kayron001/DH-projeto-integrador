@@ -1,9 +1,11 @@
 const express = require('express');
-const multer= require('multer'); //adicionado
+const multer= require('multer'); 
+
 const router = express.Router();
 
-
+const Produto  = require ('../models')
 const ProdutosController = require('../controllers/ProdutosController');
+
 const upload = require('../middlewares/multer');
 
 router.get('/', ProdutosController.todosProdutos)
@@ -15,11 +17,12 @@ router.get('/todos', ProdutosController.todosProdutos)
 router.get('/categoria/:categoria', ProdutosController.categoria)
 
 // detalhe produto
-router.get('/item/:id', ProdutosController.detalhe)
+router.get('/', ProdutosController.detalhe)
 
 
 // // criar produto
-router.get('/cadastrodeproduto', ProdutosController.cadProduto)
+router.get('/', ProdutosController.list)
+
 router.post('/',upload.single('image'), ProdutosController.novoProduto) 
 // editar produto
 router.get('/item/editar/:id', ProdutosController.editar)

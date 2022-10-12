@@ -1,34 +1,30 @@
-// module.exports = (sequelize, dataTypes) => {
-//       const cols = { 
-//         id: {
-//           type: dataTypes.INTERGER,
-//           primaryKey: true,
-//           },  
-//       }
-
-    // id_cliente:{
-    //       type: dataTypes.STRING(100)
-    //     }
-    
-    // clientes:{
-    //       type : dataTypes.STRING(100)
-    //     }
-    
-    // pedidos:{
-    //   type: dataTypes.STRING(100); null
-    // }
+module.exports = (sequelize, dataTypes) => {
+      const cols = { 
+        id_produtos: {
+          type: dataTypes.INTEGER,
+          primaryKey: true,
+          },  
+        nome:{
+          type: dataTypes.INTEGER (125)
+        },
+        preco:{
+          type: dataTypes.DECIMAL 
+        },
+        desconto:{
+          type: dataTypes.DECIMAL
+        },
+        descricao:{
+          type: dataTypes.INTEGER(1000)
+        },
+        src:{
+          type: dataTypes.INTEGER(50)
+        }
+      } 
+      
+    const config = {
+      tableName: 'produtos',
+      timestamps: false
+    }
   
-    // produtos:{
-    //    type : dataTypes.STRING(100); null
-    // }
-  
-    // const config = {
-    //   tableName: 'fornecedores',
-    //   timestamps: false
-    // }
-  
-//     return sequelize.define('desapegados', cols, config);
-  
-// }
-
-
+return sequelize.define('Produto', cols, config)
+}

@@ -12,8 +12,9 @@ var checkoutRouter = require('./routes/checkout');
 var produtosRouter = require('./routes/produtos');
 
 
-const { cadProduto } = require('./controllers/produtosController'); //adicionado
+const  pagCadProduto  = require('./controllers/produtosController'); //adicionado
 const upload = require('./middlewares/multer'); //adicionado
+const { novoProduto } = require('./controllers/produtosController');
 
 var app = express();
 
@@ -30,13 +31,11 @@ app.use(methodOverride('_method'));
 
 app.use('/', indexRouter);
 app.use('/login', loginRouter);
+app.use('/users', usersRouter);
 app.use('/checkout', checkoutRouter);
 app.use('/produtos', produtosRouter);
 
-app.use('/produtos',upload.single('image'), cadProduto);
-app.use('/uploads', upload.single('image'), cadProduto);// adicionado
-
-
+app.use('/',upload.single('image'), novoProduto); //modificado pagCadProduto
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

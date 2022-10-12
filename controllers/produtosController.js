@@ -1,20 +1,30 @@
-const fs = require('fs')
-const path = require('path')
-const { Produto} = require ('../models')
+const fs = require('fs');
+const path = require('path');
+const { Produto } = require('../models');
 
-const produtosArquivoBase = path.join(__dirname, '../data/produtos.json')
-const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'))
+ const produtosArquivoBase = path.join(__dirname, '../data/produtos.json');
+ const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'));
 
 const paraMil = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 
-const ProdutosController = {
-    cadProduto: (req, res) => {
-        return res.render('pagCadProduto')
+module.exports = {
+   async list (req, res) {
+        const cadProduto = await cadProduto.findAll();
+       return res.render('pagCadProduto', { cadProduto })
     },
-
+// }
+// const ProdutosController = {
+    // cadProduto: (req, res) => {
+    //     return res.render('pagCadProduto')
+    // },
+   async detalhe ( req, res){
+    const { id } = req.params;
+    let produtos = await produtos.findBypk(id);
+     return res.render('pagDetaProduto', { produtos });
+   },
      
-novoProduto: (req, res) => {
+    novoProduto: (req, res) => {
     let novoProduto = {
         ...req.body,
         desconto: 0,
@@ -23,14 +33,11 @@ novoProduto: (req, res) => {
     }
 
     Produto.create(novoProduto)
-    res.redirect('/');
+    res.render('/pagCadProduto', Produto );
 
-
-
-
-        produtos.push(novoProduto)
-        fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '))
-        res.redirect('/');
+    produtos.push(novoProduto)
+     fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '))
+     res.render('/');
 
     },
     editar: (req, res) => {
@@ -58,28 +65,28 @@ novoProduto: (req, res) => {
             return produto
         })
         fs.writeFileSync(produtosArquivoBase, JSON.stringify(novoProduto, null, ' '))
-        res.redirect('/public/images/produtos', { produtosArquivoBase })
+        res.render('/public/images/produtos', { produtosArquivoBase })
     },
 
-    detalhe: (req, res) => {
-        let id = req.params.id
-        let produtoid = produtos.find(produto => produto.id == id)
-        res.render('pagDetaProduto', {
-            produtoid,
-            paraMil
-        })
-    },
+    // detalhe: (req, res) => {
+    //     let id = req.params.id
+    //     let produtoid = produtos.find(produto => produto.id == id)
+    //     res.render('pagDetaProduto', {
+    //         produtoid,
+    //         paraMil
+    //     })
+    // },
 
     apagar: (req, res) => {
         let id = req.params.id
         let apagarProduto = produtos.filter(produto => produto.id != id)
         fs.writeFileSync(produtosArquivoBase, JSON.stringify(apagarProduto, null, ' '))
-        res.redirect('/')
+        res.render('/')
     },
 
     categoria: (req, res) => {
         let categoria = req.params.categoria
-        let produto = produtos.find(produto => produto.categoria == categoria)
+        let produtos = produtos.find(produto => produto.categoria == categoria)
 
         res.render('pagCategoria', {
             categoria,
@@ -90,17 +97,13 @@ novoProduto: (req, res) => {
 
     todosProdutos: (req, res) => {
         let id = req.params.id
-        let produto = produtos.find(produtos => produtos.id == id)
+        let produtos = produtos.find(produtos => produtos.id == id)
         return res.render('pagProdutos', {
             id,
             produtos,
             paraMil
         })
+}
 
-    
-},
-
-    }
-
-
-module.exports = ProdutosController;
+}
+//module.exports = ProdutosController;
