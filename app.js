@@ -35,6 +35,7 @@ app.use('/users', usersRouter);
 app.use('/checkout', checkoutRouter);
 app.use('/produtos', produtosRouter);
 
+
 app.use('/',upload.single('image'), novoProduto); //modificado pagCadProduto
 
 // catch 404 and forward to error handler
