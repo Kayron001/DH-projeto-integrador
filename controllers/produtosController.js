@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const { Produto } = require('../models');
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op
 
 const produtosArquivoBase = path.join(__dirname, '../data/produtos.json');
 const produtos = JSON.parse(fs.readFileSync(produtosArquivoBase, 'utf-8'));
@@ -10,25 +12,37 @@ const paraMil = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 module.exports = {
     criarProduto: async (req, res) => {
-       res.render('pagCadProduto')
+        res.render('pagCadProduto')
     },
 
-    novoProduto: (req, res) => {
-    let novoProduto = {
-        ...req.body,
-        desconto: 0,
-        preco: Number(req.body.preco),
-       src : req.file.filename
-    }
+    novoProduto: async (req, res) => {
+        const { nome, preco, desconto, descricao, src = null } = req.body
 
-    Produto.create(novoProduto)
-    res.render('/pagCadProduto', Produto );
-
-    produtos.push(novoProduto)
-     fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '))
-     res.render('/');
-
+        const resultado = await Produto.create({
+            nome,
+            preco,
+            desconto,
+            descricao,
+            src,
+        })
     },
+
+    // novoProduto: (req, res) => {
+    // let novoProduto = {
+    //     ...req.body,
+    //     desconto: 0,
+    //     preco: Number(req.body.preco),
+    //    src : req.file.filename
+    // }
+
+    // Produto.create(novoProduto)
+    // res.render('/pagCadProduto', Produto );
+
+    // produtos.push(novoProduto)
+    //  fs.writeFileSync(produtosArquivoBase, JSON.stringify(produtos, null, ' '))
+    //  res.render('/');
+
+    // },
     editar: (req, res) => {
         let id = req.params.id;
         let editar = produtos.find(produto => produto.id == id)
@@ -74,7 +88,7 @@ module.exports = {
         })
     },
 
-    todosProdutos: async (req, res) => { 
+    todosProdutos: async (req, res) => {
         const produtos = await Produto.findAll();
         return res.render('pagProdutos', {
             produtos,

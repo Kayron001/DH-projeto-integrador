@@ -1,23 +1,23 @@
-module.exports = (sequelize, dataTypes) => {
-  const cols = { 
+module.exports = (sequelize, DataType) => {
+  const cols = {
     id_cliente: {
-      type: dataTypes.INTEGER,
+      type: DataType.INTEGER,
       primaryKey: true,
-      },  
-      nome:{
-        type: dataTypes.STRING(100)
-      },
-      email:{
-        type: dataTypes.STRING(50)
-      },
-      senha:{
-        type: dataTypes.STRING(100)
-      }
-    } 
-const config = {
-  tableName: 'clientes',
-  timestamps: false
-}
- 
-return sequelize.define('Cliente', cols, config)
+    },
+    nome: {
+      type: DataType.STRING(100),
+    },
+    email: {
+      type: DataType.STRING(50),
+    },
+    senha: {
+      type: DataType.STRING(100),
+    },
+  }
+  const config = {
+    tableName: 'clientes',
+    timestamps: false
+  }
+
+  return sequelize.define('Cliente', cols, config)
 }
