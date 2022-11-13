@@ -52,17 +52,17 @@ module.exports = {
     },
 
 
-    atualizar: (req, res) = {
+    atualizar: async (req, res) => {
         let id = req.params.id
-            let editar = produtos.find(produto => produto.id == id)
-    
-            editar = {
+        let produto = await Produto.findByPk(produto => produto.id == id)
+
+        editar = {
             desconto: 0,
             id: editar.id,
             ...req.body,
             src: editar.src
         }
-
+        const produtoEditado = await produto.save()
     },
 
     // atualizar: (req, res) => {
@@ -86,14 +86,21 @@ module.exports = {
     //     res.render('/public/images/produtos', { produtosArquivoBase })
     // },
 
-    apagar: (req, res) => {
+    apagar: async (req, res) => {
         let id = req.params.id
-        let apagarProduto = produtos.filter(produto => produto.id != id)
-        fs.writeFileSync(produtosArquivoBase, JSON.stringify(apagarProduto, null, ' '))
-        res.render('/')
+        let produto = await Produto.findByPk(produto => produto.id == id)
+
+        const produtoApagado = await produto.destroy()
     },
 
-    categoria: (req, res) => {
+    // apagar: (req, res) => {
+    //     let id = req.params.id
+    //     let apagarProduto = produtos.filter(produto => produto.id != id)
+    //     fs.writeFileSync(produtosArquivoBase, JSON.stringify(apagarProduto, null, ' '))
+    //     res.render('/')
+    // },
+
+    categeria: (req, res) => {
         let categoria = req.params.categoria
         let produtos = produtos.find(produto => produto.categoria == categoria)
         res.render('pagCategoria', {
